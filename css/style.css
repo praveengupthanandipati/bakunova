@@ -1895,6 +1895,30 @@ header {
     50%       { opacity: 1;   }
 }
 
+/* Progress bar */
+.preloader__bar-wrap {
+    width: 160px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.12);
+    overflow: hidden;
+    margin-top: 0.25rem;
+}
+
+.preloader__bar {
+    height: 100%;
+    border-radius: 3px;
+    background: linear-gradient(90deg, var(--bs-primary), #5bc8f0);
+    animation: preloaderProgress 1.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+    transform-origin: left;
+}
+
+@keyframes preloaderProgress {
+    0%   { width: 0%; }
+    60%  { width: 75%; }
+    100% { width: 100%; }
+}
+
 /* ====================================================
    FLOATING ACTION BUTTONS
    Back to Top
