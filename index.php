@@ -1,265 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bakunova</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/swiper.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+<?php
+$current_page   = 'home';
+$page_title     = 'Home';
+$meta_description = 'Bakunova develops premium cosmetic actives and advanced delivery technologies — giving skincare brands formulation-ready solutions that are more stable, more effective, and truly differentiated.';
+$meta_keywords  = 'Bakunova, cosmetic actives, delivery technologies, skincare ingredients, liposomes, microsponge, microemulsions, ionic liquid, solid lipid nanoparticles, bakuchiol, skin care, formulation';
+include 'components/header.php';
+?>
 
-    <!-- =============================================
-         PAGE PRELOADER
-         ============================================= -->
-    <div class="preloader" id="pagePreloader" aria-hidden="true">
-        <div class="preloader__inner">
-
-            <!-- Molecule / science icon -->
-            <div class="preloader__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none"
-                     viewBox="0 0 24 24" stroke="var(--bs-primary)" stroke-width="1.4"
-                     stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="5"  r="2" fill="rgba(8,138,199,0.25)"/>
-                    <circle cx="19" cy="9"  r="2" fill="rgba(8,138,199,0.25)"/>
-                    <circle cx="19" cy="15" r="2" fill="rgba(8,138,199,0.25)"/>
-                    <circle cx="12" cy="19" r="2" fill="rgba(8,138,199,0.25)"/>
-                    <circle cx="5"  cy="15" r="2" fill="rgba(8,138,199,0.25)"/>
-                    <circle cx="5"  cy="9"  r="2" fill="rgba(8,138,199,0.25)"/>
-                    <circle cx="12" cy="12" r="2.5" fill="rgba(8,138,199,0.40)"/>
-                    <line x1="12" y1="7"  x2="12" y2="9.5"/>
-                    <line x1="17.3" y1="10.3" x2="14.2" y2="10.8"/>
-                    <line x1="17.3" y1="13.7" x2="14.2" y2="13.2"/>
-                    <line x1="12"   y1="17" x2="12"   y2="14.5"/>
-                    <line x1="6.7"  y1="13.7" x2="9.8" y2="13.2"/>
-                    <line x1="6.7"  y1="10.3" x2="9.8" y2="10.8"/>
-                </svg>
-            </div>
-
-            <!-- Spinning ring -->
-            <div class="preloader__ring"></div>
-
-            <!-- Progress bar -->
-            <div class="preloader__bar-wrap">
-                <div class="preloader__bar"></div>
-            </div>
-
-            <!-- Brand text -->
-            <p class="preloader__text">Bakunova</p>
-
-        </div>
-    </div>
-
-    <header class="site-header">
-        <!-- =============================================
-             MAIN NAVBAR
-             ============================================= -->
-        <nav class="navbar navbar-expand-xl main-navbar nav-transparent py-0" id="mainNav">
-            <div class="container-90 d-flex align-items-center">
-
-                <!-- Logo — Left -->
-                <a class="navbar-brand flex-shrink-0 py-3 me-auto me-xl-4" href="index.html">
-                    <img src="img/bakunova-logo-white.png" alt="Bakunova" height="40" class="logo-white">
-                    <img src="img/bakunova-logo.png"       alt="Bakunova" height="40" class="logo-dark">
-                </a>
-
-                <!-- Mobile Hamburger -->
-                <button class="navbar-toggler border-0 p-1 d-xl-none ms-3" type="button"
-                        data-bs-toggle="offcanvas" data-bs-target="#mobileMenuOffcanvas"
-                        aria-controls="mobileMenuOffcanvas" aria-label="Toggle navigation">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
-                        <line x1="3" y1="6" x2="21" y2="6"/>
-                        <line x1="3" y1="12" x2="21" y2="12"/>
-                        <line x1="3" y1="18" x2="21" y2="18"/>
-                    </svg>
-                </button>
-
-                <!-- Desktop Nav — Hidden below xl -->
-                <div class="d-none d-xl-flex flex-grow-1 align-items-center">
-
-                    <!-- Centre: Nav Links -->
-                    <ul class="navbar-nav mx-auto header-nav align-items-center gap-1 mb-0">
-
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link nav-link-custom active">Home</a>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link nav-link-custom d-flex align-items-center gap-1" href="#" role="button">
-                                Company
-                                <svg class="nav-chevron" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
-                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                     stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="6 9 12 15 18 9"></polyline>
-                                </svg>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">About Us</a></li>
-                                <li><a class="dropdown-item" href="#">Leadership</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item dropdown">
-                            <a class="nav-link nav-link-custom d-flex align-items-center gap-1" href="#" role="button">
-                                Services
-                                <svg class="nav-chevron" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
-                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                     stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="6 9 12 15 18 9"></polyline>
-                                </svg>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Technologies</a></li>
-                                <li><a class="dropdown-item" href="#">Skin Care Ingredients</a></li>
-                                <li><a class="dropdown-item" href="#">Skin Care Solutions</a></li>
-                                <li><a class="dropdown-item" href="#">Development Pipeline</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link nav-link-custom">Products</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link nav-link-custom">Quality</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link nav-link-custom">FAQ's</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link nav-link-custom">Contact</a>
-                        </li>
-
-                    </ul>
-
-                    <!-- Right: Contact Us CTA -->
-                    <div class="flex-shrink-0">
-                        <a href="#" class="btn btn-primary btn-nav-cta rounded-pill">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor"
-                                 class="me-2" viewBox="0 0 16 16">
-                                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661
-                                1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608
-                                4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0
-                                0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0
-                                1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0
-                                0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1
-                                2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0
-                                .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1
-                                1.494.315l2.306 1.794c.829.645.905 1.87.163
-                                2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0
-                                1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                            </svg>
-                            Contact Us
-                        </a>
-                    </div>
-
-                </div><!-- /desktop nav -->
-
-            </div><!-- /container -->
-        </nav>
-
-        <!-- =============================================
-             MOBILE OFFCANVAS MENU
-             ============================================= -->
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenuOffcanvas"
-             aria-labelledby="mobileMenuLabel">
-
-            <div class="offcanvas-header border-bottom py-3 px-4">
-                <a href="index.html">
-                    <img src="img/bakunova-logo.png" alt="Bakunova" height="42">
-                </a>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-
-            <div class="offcanvas-body px-3 pt-2">
-
-                <div class="accordion accordion-flush" id="mobileNavAccordion">
-
-                    <!-- Home -->
-                    <div class="mobile-nav-link-item">
-                        <a href="index.html" class="nav-link fw-semibold py-3 px-2">Home</a>
-                    </div>
-
-                    <!-- Company -->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#mobileCompany"
-                                    aria-expanded="false">
-                                Company
-                            </button>
-                        </h2>
-                        <div id="mobileCompany" class="accordion-collapse collapse"
-                             data-bs-parent="#mobileNavAccordion">
-                            <div class="accordion-body pt-0 pb-2">
-                                <nav class="nav flex-column gap-1">
-                                    <a class="nav-link" href="#">About Us</a>
-                                    <a class="nav-link" href="#">Leadership</a>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Services -->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#mobileServices"
-                                    aria-expanded="false">
-                                Services
-                            </button>
-                        </h2>
-                        <div id="mobileServices" class="accordion-collapse collapse"
-                             data-bs-parent="#mobileNavAccordion">
-                            <div class="accordion-body pt-0 pb-2">
-                                <nav class="nav flex-column gap-1">
-                                    <a class="nav-link" href="#">Technologies</a>
-                                    <a class="nav-link" href="#">Skin Care Ingredients</a>
-                                    <a class="nav-link" href="#">Skin Care Solutions</a>
-                                    <a class="nav-link" href="#">Development Pipeline</a>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Products -->
-                    <div class="mobile-nav-link-item">
-                        <a href="#" class="nav-link fw-semibold py-3 px-2">Products</a>
-                    </div>
-
-                    <!-- Quality -->
-                    <div class="mobile-nav-link-item">
-                        <a href="#" class="nav-link fw-semibold py-3 px-2">Quality</a>
-                    </div>
-
-                    <!-- FAQ's -->
-                    <div class="mobile-nav-link-item">
-                        <a href="#" class="nav-link fw-semibold py-3 px-2">FAQ's</a>
-                    </div>
-
-                    <!-- Contact -->
-                    <div class="mobile-nav-link-item">
-                        <a href="#" class="nav-link fw-semibold py-3 px-2">Contact</a>
-                    </div>
-
-                </div><!-- /accordion -->
-
-                <!-- CTA -->
-                <div class="pt-4 pb-2">
-                    <a href="#" class="btn btn-primary w-100 rounded-pill fw-semibold">Contact Us</a>
-                </div>
-
-            </div><!-- /offcanvas-body -->
-        </div><!-- /offcanvas -->
-
-    </header>
     <main>
-        <!-- hero section-->
         <!-- =============================================
              HERO SECTION
              ============================================= -->
@@ -386,13 +133,9 @@
                         <stop offset="100%" stop-color="#0891b2" stop-opacity="0"/>
                     </linearGradient>
                 </defs>
-                <!-- Pink blob -->
                 <ellipse cx="580" cy="140" rx="260" ry="200" fill="url(#wg1)" transform="rotate(-20 580 140)"/>
-                <!-- Purple blob -->
                 <ellipse cx="640" cy="350" rx="220" ry="180" fill="url(#wg2)" transform="rotate(10 640 350)"/>
-                <!-- Cyan blob -->
                 <ellipse cx="500" cy="520" rx="200" ry="160" fill="url(#wg3)" transform="rotate(-5 500 520)"/>
-                <!-- Flowing wavy lines -->
                 <path d="M350 0 Q450 80 400 180 Q350 280 500 360 Q600 420 560 520 Q520 600 600 640"
                       stroke="#e91e8c" stroke-width="1.8" fill="none" opacity="0.18"/>
                 <path d="M420 0 Q520 90 470 200 Q420 310 570 380 Q660 430 620 540 Q590 610 660 640"
@@ -403,7 +146,6 @@
                       stroke="#7c3aed" stroke-width="1.2" fill="none" opacity="0.10"/>
                 <path d="M620 40 Q680 160 660 290 Q640 400 700 490"
                       stroke="#0891b2" stroke-width="1.5" fill="none" opacity="0.12"/>
-                <!-- Dots -->
                 <circle cx="440" cy="80"  r="3.5" fill="#e91e8c" opacity="0.30"/>
                 <circle cx="390" cy="170" r="2.5" fill="#e91e8c" opacity="0.22"/>
                 <circle cx="530" cy="130" r="2"   fill="#7c3aed" opacity="0.28"/>
@@ -518,7 +260,6 @@
 
                     <div class="abk-feat abk-feat--1">
                         <div class="abk-feat-icon">
-                            <!-- Concentric circles / target -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
                                  stroke-linecap="round" stroke-linejoin="round">
@@ -537,7 +278,6 @@
 
                     <div class="abk-feat abk-feat--2">
                         <div class="abk-feat-icon">
-                            <!-- Shield check -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
                                  stroke-linecap="round" stroke-linejoin="round">
@@ -556,7 +296,6 @@
 
                     <div class="abk-feat abk-feat--3">
                         <div class="abk-feat-icon">
-                            <!-- Lab flask -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
                                  stroke-linecap="round" stroke-linejoin="round">
@@ -612,7 +351,6 @@
                     <div class="col-lg-8">
                         <div class="row g-3">
 
-                            <!-- Liposomes -->
                             <div class="col-6 col-sm-6 col-md-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="0">
                                 <div class="dt-card dt-card--1">
                                     <div class="dt-card-icon-wrap">
@@ -629,7 +367,6 @@
                                 </div>
                             </div>
 
-                            <!-- Microsponge Systems -->
                             <div class="col-6 col-sm-6 col-md-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
                                 <div class="dt-card dt-card--2">
                                     <div class="dt-card-icon-wrap">
@@ -647,7 +384,6 @@
                                 </div>
                             </div>
 
-                            <!-- Microemulsions -->
                             <div class="col-6 col-sm-6 col-md-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
                                 <div class="dt-card dt-card--3">
                                     <div class="dt-card-icon-wrap">
@@ -662,7 +398,6 @@
                                 </div>
                             </div>
 
-                            <!-- Ionic Liquid (CAGE) -->
                             <div class="col-6 col-sm-6 col-md-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="300">
                                 <div class="dt-card dt-card--4">
                                     <div class="dt-card-icon-wrap">
@@ -681,7 +416,6 @@
                                 </div>
                             </div>
 
-                            <!-- Solid Lipid Nanoparticles -->
                             <div class="col-6 col-sm-6 col-md-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="400">
                                 <div class="dt-card dt-card--5">
                                     <div class="dt-card-icon-wrap">
@@ -696,7 +430,6 @@
                                 </div>
                             </div>
 
-                            <!-- β-CD Complexation -->
                             <div class="col-6 col-sm-6 col-md-4" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="500">
                                 <div class="dt-card dt-card--6">
                                     <div class="dt-card-icon-wrap">
@@ -783,7 +516,6 @@
              ============================================= -->
         <section class="ing-section">
 
-            <!-- Wave decoration -->
             <svg class="ing-section__deco-tr" viewBox="0 0 600 500" preserveAspectRatio="xMaxYMin slice"
                  xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <defs>
@@ -807,7 +539,6 @@
                 <circle cx="550" cy="240" r="3" fill="#a855f7" opacity="0.18"/>
             </svg>
 
-            <!-- Bottom wave decoration -->
             <svg class="ing-section__deco-bl" viewBox="0 0 600 300" preserveAspectRatio="xMinYMax slice"
                  xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                 <defs>
@@ -828,7 +559,6 @@
                 <!-- ── Top: Heading + Badges ── -->
                 <div class="row align-items-center g-4 mb-5 pb-lg-2">
 
-                    <!-- Left: Heading block -->
                     <div class="col-lg-6">
                         <span class="ing-eyebrow" data-aos="fade-up" data-aos-duration="700">Bakunova</span>
                         <h2 class="ing-heading" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
@@ -842,7 +572,6 @@
                         </p>
                     </div>
 
-                    <!-- Right: 3 Badges -->
                     <div class="col-lg-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
                         <div class="ing-badges">
 
@@ -898,7 +627,6 @@
                 <!-- ── 3 Ingredient Cards ── -->
                 <div class="row g-4">
 
-                    <!-- Card 1: Bakuchiol — Purple -->
                     <div class="col-12 col-md-6 col-lg-4"
                          data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">
                         <div class="ing-card ing-card--1">
@@ -925,7 +653,6 @@
                         </div>
                     </div>
 
-                    <!-- Card 2: Hydroxypinacolone Retinoate — Blue -->
                     <div class="col-12 col-md-6 col-lg-4"
                          data-aos="fade-up" data-aos-duration="700" data-aos-delay="150">
                         <div class="ing-card ing-card--2">
@@ -955,7 +682,6 @@
                         </div>
                     </div>
 
-                    <!-- Card 3: Rosmarinic Acid — Green -->
                     <div class="col-12 col-md-6 col-lg-4"
                          data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
                         <div class="ing-card ing-card--3">
@@ -988,156 +714,7 @@
             </div><!-- /container -->
         </section>
         <!--/ ingredients section-->
+
     </main>
-    <footer class="site-footer">
 
-        <!-- ── Main Footer Body ── -->
-        <div class="footer-main py-5">
-            <div class="container-90">
-                <div class="row g-4 g-lg-5">
-
-                    <!-- Col 1: Brand + About + Contact -->
-                    <div class="col-12 col-lg-4">
-                        <div class="footer-logo mb-3">
-                            <img src="img/bakunova-logo-white.png" alt="Bakunova" height="44">
-                        </div>
-                        <p class="footer-intro">
-                            A cosmetic division of Drug Discovery Labs, USA. We develop premium cosmetic actives and advanced delivery technologies — empowering skincare brands with formulation-ready solutions that are more stable, more effective, and truly differentiated.
-                        </p>
-
-                        <!-- Contact items -->
-                        <div class="footer-contact-item">
-                            <div class="footer-contact-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
-                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                     stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                                    <circle cx="12" cy="10" r="3"/>
-                                </svg>
-                            </div>
-                            <span class="footer-link">Drug Discovery Labs, USA</span>
-                        </div>
-
-                        <div class="footer-contact-item">
-                            <div class="footer-contact-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
-                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                     stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                    <polyline points="22,6 12,13 2,6"/>
-                                </svg>
-                            </div>
-                            <a href="mailto:info@bakunova.com" class="footer-link">info@bakunova.com</a>
-                        </div>
-
-                        <div class="footer-contact-item">
-                            <div class="footer-contact-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
-                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                     stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0
-                                    01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361
-                                    1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0
-                                    012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
-                                </svg>
-                            </div>
-                            <a href="tel:+1234567890" class="footer-link">+1 (234) 567-890</a>
-                        </div>
-
-                        <!-- Social Icons -->
-                        <div class="footer-socials mt-3">
-                            <a href="#" class="footer-social-btn" aria-label="LinkedIn">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 01.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                                </svg>
-                            </a>
-                            <a href="#" class="footer-social-btn" aria-label="Twitter / X">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" viewBox="0 0 16 16">
-                                    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-                                </svg>
-                            </a>
-                            <a href="#" class="footer-social-btn" aria-label="Facebook">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                                </svg>
-                            </a>
-                            <a href="#" class="footer-social-btn" aria-label="Instagram">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 00-1.417.923A3.927 3.927 0 00.42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 001.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 00-.923-1.417A3.911 3.911 0 0013.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 01-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 01-.92-.598 2.48 2.48 0 01-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 100 1.92.96.96 0 000-1.92zm-4.27 1.122a4.109 4.109 0 100 8.217 4.109 4.109 0 000-8.217zm0 1.441a2.667 2.667 0 110 5.334 2.667 2.667 0 010-5.334z"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!-- Col 2: Company Links -->
-                    <div class="col-6 col-sm-4 col-lg-2">
-                        <h4 class="footer-heading">Company</h4>
-                        <ul class="footer-links-list">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Leadership</a></li>
-                            <li><a href="#">Quality</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">News &amp; Blog</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Col 3: Services Links -->
-                    <div class="col-6 col-sm-4 col-lg-2">
-                        <h4 class="footer-heading">Services</h4>
-                        <ul class="footer-links-list">
-                            <li><a href="#">Technologies</a></li>
-                            <li><a href="#">Skin Care Ingredients</a></li>
-                            <li><a href="#">Skin Care Solutions</a></li>
-                            <li><a href="#">Development Pipeline</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Col 4: Products + Newsletter -->
-                    <div class="col-12 col-sm-4 col-lg-4">
-                        <h4 class="footer-heading">Products</h4>
-                        <ul class="footer-links-list mb-4">
-                            <li><a href="#">Bakuchiol</a></li>
-                            <li><a href="#">Hydroxypinacolone Retinoate</a></li>
-                            <li><a href="#">Rosmarinic Acid</a></li>
-                            <li><a href="#">View All Products</a></li>
-                        </ul>
-                    </div>
-
-                </div><!-- /row -->
-            </div><!-- /container -->
-        </div><!-- /footer-main -->
-
-        <!-- ── Copyright Bar ── -->
-        <div class="footer-bottom">
-            <div class="container-90">
-                <div class="row align-items-center g-2">
-                    <div class="col-12 col-md-6 text-center text-md-start">
-                        &copy; <span id="footerYear"></span> Bakunova — A Division of Drug Discovery Labs, USA. All rights reserved.
-                    </div>                  
-                </div>
-            </div>
-        </div>
-
-        <script>document.getElementById('footerYear').textContent = new Date().getFullYear();</script>
-
-    </footer>
-
-
-    <!-- Back to Top -->
-    <button class="fab-top" id="backToTop" aria-label="Back to top">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"
-             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"
-             stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="18 15 12 9 6 15"/>
-        </svg>
-    </button>
-
-    <!-- scro[ts]-->
-     <script src="js/jquery-3.6.0.min.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/aos.js"></script>
-     <script src="js/swiper.min.js"></script>
-     <script src="js/scripts.js"></script>    
-</body>
-</html>
+<?php include 'components/footer.php'; ?>
