@@ -715,6 +715,352 @@ include 'components/header.php';
         </section>
         <!--/ ingredients section-->
 
+        <!-- =============================================
+             PRODUCTS & SERVICES SECTION
+             ============================================= -->
+        <section class="ps-section" id="services">
+            <div class="container-90">
+
+                <!-- Section title -->
+                <div class="text-center mb-5"
+                     data-aos="fade-up" data-aos-duration="700">
+                    <span class="section-eyebrow">What We Offer</span>
+                    <h2 class="section-heading">Products &amp; Services</h2>
+                    <p class="mx-auto mt-2" style="max-width:520px;color:#64748b;font-size:.97rem;line-height:1.7;">
+                        Combining premium natural actives with cutting-edge delivery innovation to help cosmetic brands create more effective, differentiated products.
+                    </p>
+                </div>
+
+                <div class="row g-4 align-items-stretch">
+
+                    <!-- ══ PRODUCTS card ══ -->
+                    <div class="col-lg-4"
+                         data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
+                        <div class="ps-card ps-card--products">
+
+                            <div class="ps-card__header">
+                                <div class="ps-card__header-icon">
+                                    <!-- Molecule icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
+                                         stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="5"  r="1.8"/>
+                                        <circle cx="19" cy="9"  r="1.8"/>
+                                        <circle cx="19" cy="15" r="1.8"/>
+                                        <circle cx="12" cy="19" r="1.8"/>
+                                        <circle cx="5"  cy="15" r="1.8"/>
+                                        <circle cx="5"  cy="9"  r="1.8"/>
+                                        <circle cx="12" cy="12" r="2.2" fill="rgba(255,255,255,0.3)"/>
+                                        <line x1="12" y1="6.8"  x2="12" y2="9.8"/>
+                                        <line x1="17.5" y1="10.2" x2="14.2" y2="11"/>
+                                        <line x1="17.5" y1="13.8" x2="14.2" y2="13"/>
+                                        <line x1="12"   y1="17.2" x2="12"   y2="14.2"/>
+                                        <line x1="6.5"  y1="13.8" x2="9.8"  y2="13"/>
+                                        <line x1="6.5"  y1="10.2" x2="9.8"  y2="11"/>
+                                    </svg>
+                                </div>
+                                <div class="ps-card__header-text">
+                                    <span class="ps-card__label">Products we sell</span>
+                                    <h3 class="ps-card__title"><a href="products.php">Products</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="ps-card__body">
+
+                                <!-- 1: Premium native ingredients -->
+                                <div class="ps-item">
+                                    <div class="ps-item__head">
+                                        <span class="ps-item__num">1</span>
+                                        <div class="ps-item__img-wrap" style="width:48px;height:48px;border-radius:50%;background:rgba(8,138,199,.1);border:2px solid rgba(8,138,199,.2);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
+                                                 viewBox="0 0 24 24" stroke="#088ac7" stroke-width="1.6"
+                                                 stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                            </svg>
+                                        </div>
+                                        <a href="products.php#native-ingredients" class="ps-item__title">Premium native ingredients</a>
+                                    </div>
+                                    <ul class="ps-item__list">
+                                        <li><a href="products.php#bakuchiol">Bakuchiol</a></li>
+                                        <li><a href="products.php#rosmarinic-acid">Rosmarinic Acid</a></li>
+                                        <li><a href="products.php#hpr">Hydroxypinacolone Retinoate (HPR)</a></li>
+                                        <li><a href="products.php#salicylic-acid">Natural Salicylic Acid</a></li>
+                                    </ul>
+                                </div>
+
+                                <!-- 2: Value-added pre-formulations -->
+                                <div class="ps-item">
+                                    <div class="ps-item__head">
+                                        <span class="ps-item__num">2</span>
+                                        <div class="ps-item__img-wrap" style="width:48px;height:48px;border-radius:50%;background:rgba(8,138,199,.08);border:2px solid rgba(8,138,199,.18);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
+                                                 viewBox="0 0 24 24" stroke="#088ac7" stroke-width="1.6"
+                                                 stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                                            </svg>
+                                        </div>
+                                        <a href="products.php#pre-formulations" class="ps-item__title">Value-added pre-formulations</a>
+                                    </div>
+                                    <ul class="ps-item__list">
+                                        <li><a href="products.php#formulation-ready">Formulation-ready ingredients</a></li>
+                                        <li><a href="products.php#encapsulated">Encapsulated, stabilized, and solubilized actives</a></li>
+                                        <li><a href="products.php#delivery-enhanced">Delivery-enhanced systems for improved performance</a></li>
+                                        <li><a href="products.php#skin-delivery">Superior skin delivery and formulation convenience</a></li>
+                                    </ul>
+                                </div>
+
+                            </div><!-- /card body -->
+                        </div><!-- /products card -->
+                    </div>
+
+                    <!-- ══ CENTER: visual + pipeline ══ -->
+                    <div class="col-lg-4"
+                         data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
+                        <div class="ps-center">
+
+                            <div class="ps-center__tagline">
+                                WHERE <span>ACTIVE INGREDIENTS</span> MEET DELIVERY SCIENCE
+                            </div>
+
+                            <!-- SVG visual — molecular serum -->
+                            <div class="ps-center__visual">
+                                <svg viewBox="0 0 260 240" xmlns="http://www.w3.org/2000/svg"
+                                     style="width:100%;max-width:260px" aria-hidden="true">
+                                    <defs>
+                                        <radialGradient id="cg1" cx="50%" cy="40%" r="50%">
+                                            <stop offset="0%" stop-color="#088ac7" stop-opacity="0.12"/>
+                                            <stop offset="100%" stop-color="#088ac7" stop-opacity="0"/>
+                                        </radialGradient>
+                                        <radialGradient id="cg2" cx="50%" cy="60%" r="50%">
+                                            <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.10"/>
+                                            <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+                                        </radialGradient>
+                                    </defs>
+                                    <!-- Background blobs -->
+                                    <ellipse cx="130" cy="120" rx="120" ry="100" fill="url(#cg1)"/>
+                                    <ellipse cx="130" cy="140" rx="100" ry="90" fill="url(#cg2)"/>
+                                    <!-- Serum bottle body -->
+                                    <rect x="102" y="80" width="56" height="110" rx="14" fill="rgba(8,138,199,0.08)" stroke="rgba(8,138,199,0.25)" stroke-width="1.5"/>
+                                    <!-- Bottle cap -->
+                                    <rect x="112" y="58" width="36" height="26" rx="6" fill="rgba(6,28,99,0.18)" stroke="rgba(6,28,99,0.3)" stroke-width="1.2"/>
+                                    <!-- Dropper tip -->
+                                    <line x1="130" y1="45" x2="130" y2="58" stroke="rgba(6,28,99,0.4)" stroke-width="3" stroke-linecap="round"/>
+                                    <!-- Liquid inside -->
+                                    <rect x="108" y="120" width="44" height="64" rx="8" fill="rgba(8,138,199,0.15)"/>
+                                    <!-- Bubbles inside bottle -->
+                                    <circle cx="118" cy="130" r="4" fill="rgba(8,138,199,0.2)"/>
+                                    <circle cx="130" cy="140" r="5" fill="rgba(8,138,199,0.18)"/>
+                                    <circle cx="142" cy="128" r="3.5" fill="rgba(8,138,199,0.16)"/>
+                                    <circle cx="122" cy="155" r="3" fill="rgba(8,138,199,0.12)"/>
+                                    <!-- Molecule nodes — left -->
+                                    <g stroke="rgba(8,138,199,0.5)" stroke-width="1.2" fill="none">
+                                        <circle cx="35"  cy="90"  r="8" fill="rgba(8,138,199,0.12)"/>
+                                        <circle cx="62"  cy="70"  r="6" fill="rgba(8,138,199,0.10)"/>
+                                        <circle cx="72"  cy="108" r="7" fill="rgba(8,138,199,0.10)"/>
+                                        <circle cx="44"  cy="125" r="5" fill="rgba(8,138,199,0.08)"/>
+                                        <line x1="35" y1="90"  x2="62"  y2="70"/>
+                                        <line x1="62" y1="70"  x2="72"  y2="108"/>
+                                        <line x1="35" y1="90"  x2="72"  y2="108"/>
+                                        <line x1="35" y1="90"  x2="44"  y2="125"/>
+                                        <line x1="72" y1="108" x2="44"  y2="125"/>
+                                    </g>
+                                    <!-- Molecule nodes — right -->
+                                    <g stroke="rgba(124,58,237,0.45)" stroke-width="1.2" fill="none">
+                                        <circle cx="225" cy="85"  r="8" fill="rgba(124,58,237,0.12)"/>
+                                        <circle cx="198" cy="65"  r="6" fill="rgba(124,58,237,0.10)"/>
+                                        <circle cx="188" cy="105" r="7" fill="rgba(124,58,237,0.10)"/>
+                                        <circle cx="215" cy="120" r="5" fill="rgba(124,58,237,0.08)"/>
+                                        <line x1="225" y1="85"  x2="198" y2="65"/>
+                                        <line x1="198" y1="65"  x2="188" y2="105"/>
+                                        <line x1="225" y1="85"  x2="188" y2="105"/>
+                                        <line x1="225" y1="85"  x2="215" y2="120"/>
+                                        <line x1="188" y1="105" x2="215" y2="120"/>
+                                    </g>
+                                    <!-- Floating dots -->
+                                    <circle cx="80"  cy="160" r="3" fill="rgba(8,138,199,0.25)"/>
+                                    <circle cx="55"  cy="145" r="2" fill="rgba(8,138,199,0.20)"/>
+                                    <circle cx="175" cy="155" r="3" fill="rgba(124,58,237,0.25)"/>
+                                    <circle cx="200" cy="140" r="2" fill="rgba(124,58,237,0.20)"/>
+                                    <circle cx="130" cy="220" r="4" fill="rgba(8,138,199,0.12)"/>
+                                    <circle cx="110" cy="212" r="2.5" fill="rgba(8,138,199,0.10)"/>
+                                    <circle cx="150" cy="215" r="2.5" fill="rgba(124,58,237,0.10)"/>
+                                </svg>
+                            </div>
+
+                            <!-- 4-step value chain flow -->
+                            <div class="ps-flow w-100">
+
+                                <div class="ps-flow-step ps-flow-step--1"
+                                     data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+                                    <div class="ps-flow-step__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75"
+                                             stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                        </svg>
+                                    </div>
+                                    <span class="ps-flow-step__label">Native<br>Ingredients</span>
+                                </div>
+
+                                <div class="ps-flow-arrow">&#8595;</div>
+
+                                <div class="ps-flow-step ps-flow-step--2"
+                                     data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+                                    <div class="ps-flow-step__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75"
+                                             stroke-linecap="round" stroke-linejoin="round">
+                                            <circle cx="12" cy="12" r="10"/>
+                                            <circle cx="12" cy="12" r="6"/>
+                                            <circle cx="12" cy="12" r="2"/>
+                                        </svg>
+                                    </div>
+                                    <span class="ps-flow-step__label">Advanced Delivery<br>Platforms</span>
+                                </div>
+
+                                <div class="ps-flow-arrow">&#8595;</div>
+
+                                <div class="ps-flow-step ps-flow-step--3"
+                                     data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+                                    <div class="ps-flow-step__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75"
+                                             stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                                        </svg>
+                                    </div>
+                                    <span class="ps-flow-step__label">Value-added<br>Pre-formulations</span>
+                                </div>
+
+                                <div class="ps-flow-arrow">&#8595;</div>
+
+                                <div class="ps-flow-step ps-flow-step--4"
+                                     data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
+                                    <div class="ps-flow-step__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75"
+                                             stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                                        </svg>
+                                    </div>
+                                    <span class="ps-flow-step__label">Better Finished<br>Product Performance</span>
+                                </div>
+
+                            </div><!-- /flow -->
+                        </div><!-- /ps-center -->
+                    </div>
+
+                    <!-- ══ SERVICES card ══ -->
+                    <div class="col-lg-4"
+                         data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">
+                        <div class="ps-card ps-card--services">
+
+                            <div class="ps-card__header">
+                                <div class="ps-card__header-icon">
+                                    <!-- Gear/atom icon -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
+                                         stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="3"/>
+                                        <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/>
+                                    </svg>
+                                </div>
+                                <div class="ps-card__header-text">
+                                    <span class="ps-card__label">Services we offer</span>
+                                    <h3 class="ps-card__title"><a href="services.php">Services</a></h3>
+                                </div>
+                            </div>
+
+                            <div class="ps-card__body">
+
+                                <!-- 1: Advanced delivery technology services -->
+                                <div class="ps-item">
+                                    <div class="ps-item__head">
+                                        <span class="ps-item__num">1</span>
+                                        <div class="ps-item__img-wrap" style="width:48px;height:48px;border-radius:50%;background:rgba(124,58,237,.1);border:2px solid rgba(124,58,237,.2);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
+                                                 viewBox="0 0 24 24" stroke="#7c3aed" stroke-width="1.6"
+                                                 stroke-linecap="round" stroke-linejoin="round">
+                                                <circle cx="12" cy="12" r="10"/>
+                                                <circle cx="12" cy="12" r="6"/>
+                                                <circle cx="12" cy="12" r="2"/>
+                                            </svg>
+                                        </div>
+                                        <a href="services.php#delivery-services" class="ps-item__title">Advanced delivery technology services</a>
+                                    </div>
+                                    <ul class="ps-item__list">
+                                        <li><a href="services.php#tech-selection">Technology selection and formulation strategy</a></li>
+                                        <li><a href="services.php#preformulation">Ingredient-to-pre-formulation development</a></li>
+                                        <li><a href="services.php#custom-design">Customized delivery system design</a></li>
+                                        <li><a href="services.php#value-addition">Support for value addition in finished formulations</a></li>
+                                    </ul>
+                                </div>
+
+                                <!-- 2: Technology platforms -->
+                                <div class="ps-item">
+                                    <div class="ps-item__head">
+                                        <span class="ps-item__num">2</span>
+                                        <div class="ps-item__img-wrap" style="width:48px;height:48px;border-radius:50%;background:rgba(124,58,237,.08);border:2px solid rgba(124,58,237,.18);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
+                                                 viewBox="0 0 24 24" stroke="#7c3aed" stroke-width="1.6"
+                                                 stroke-linecap="round" stroke-linejoin="round">
+                                                <rect x="3" y="3" width="7" height="7" rx="1"/>
+                                                <rect x="14" y="3" width="7" height="7" rx="1"/>
+                                                <rect x="3" y="14" width="7" height="7" rx="1"/>
+                                                <rect x="14" y="14" width="7" height="7" rx="1"/>
+                                            </svg>
+                                        </div>
+                                        <a href="services.php#technology-platforms" class="ps-item__title">Technology platforms</a>
+                                    </div>
+                                    <ul class="ps-item__list" style="display:grid;grid-template-columns:1fr 1fr;gap:.4rem .75rem">
+                                        <li><a href="services.php#liposomes">Liposomes</a></li>
+                                        <li><a href="services.php#microsponge">Microsponge systems</a></li>
+                                        <li><a href="services.php#ionic-liquid">Ionic liquid / CAGE</a></li>
+                                        <li><a href="services.php#sln">Solid lipid nanoparticles</a></li>
+                                        <li><a href="services.php#microemulsions">Microemulsions</a></li>
+                                        <li><a href="services.php#cyclodextrin">β-Cyclodextrin complexation</a></li>
+                                        <li style="grid-column:1/-1"><a href="services.php#encapsulation">Additional encapsulation and controlled-release systems</a></li>
+                                    </ul>
+                                </div>
+
+                            </div><!-- /card body -->
+                        </div><!-- /services card -->
+                    </div>
+
+                </div><!-- /main row -->
+
+                <!-- Bottom tagline bar -->
+                <div class="ps-tagline-bar"
+                     data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+                    <div class="ps-tagline-bar__icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
+                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
+                             stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="5"  r="2"/>
+                            <circle cx="19" cy="9"  r="2"/>
+                            <circle cx="19" cy="15" r="2"/>
+                            <circle cx="12" cy="19" r="2"/>
+                            <circle cx="5"  cy="15" r="2"/>
+                            <circle cx="5"  cy="9"  r="2"/>
+                            <circle cx="12" cy="12" r="2.5"/>
+                            <line x1="12" y1="7"   x2="12" y2="10"/>
+                            <line x1="17.5" y1="10" x2="14" y2="11"/>
+                            <line x1="17.5" y1="14" x2="14" y2="13"/>
+                            <line x1="12"   y1="17" x2="12" y2="14"/>
+                            <line x1="6.5"  y1="14" x2="10" y2="13"/>
+                            <line x1="6.5"  y1="10" x2="10" y2="11"/>
+                        </svg>
+                    </div>
+                    <div class="ps-tagline-bar__text">
+                        <strong>Bakunova combines premium natural actives with delivery innovation</strong>
+                        <p>to help cosmetic brands create more effective, differentiated, and formulation-ready products.</p>
+                    </div>
+                </div>
+
+            </div><!-- /container -->
+        </section>
+        <!--/ products & services -->
+
     </main>
 
 <?php include 'components/footer.php'; ?>
