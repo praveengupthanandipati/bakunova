@@ -5500,7 +5500,7 @@ header {
 .main-navbar {
     background: #ffffff;
     border-bottom: 1px solid var(--color-border);
-    min-height: 76px;
+    min-height: 97px;
     transition: box-shadow 0.35s ease, border-color 0.35s ease;
 }
 
@@ -5511,7 +5511,7 @@ header {
 
 /* Logo */
 .navbar-brand img {
-    height: 40px;
+    height: 65px;
     width: auto;
     transition: opacity 0.25s ease;
 }
@@ -5520,11 +5520,7 @@ header {
     opacity: 0.82;
 }
 
-/* Logo swap: white on transparent header, dark on scrolled white header */
-.main-navbar.nav-transparent .logo-dark  { display: none; }
-.main-navbar.nav-transparent .logo-white { display: block; }
-.main-navbar.scrolled        .logo-white { display: none; }
-.main-navbar.scrolled        .logo-dark  { display: block; }
+/* Single logo — always visible */
 
 /* Hamburger icon colour */
 .navbar-toggler svg {
@@ -5564,13 +5560,29 @@ header {
         border: 1px solid rgba(6, 28, 99, 0.06) !important;
         box-shadow: 0 10px 36px rgba(6, 28, 99, 0.13) !important;
         padding: 0.6rem !important;
-        min-width: 215px;
+        min-width: 280px;
     }
 
     .header-nav .dropdown-menu .dropdown-item {
         border-radius: 8px;
         padding: 0.52rem 0.9rem;
         font-size: 0.9rem;
+        white-space: normal;
+        line-height: 1.4;
+    }
+
+    .header-nav .dropdown-menu .dropdown-header {
+        font-size: 0.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: .08em;
+        color: var(--bs-primary);
+        padding: 0.5rem 0.9rem 0.3rem;
+    }
+
+    .header-nav .dropdown-menu .dropdown-divider {
+        margin: 0.4rem 0.6rem;
+        border-color: rgba(6,28,99,0.07);
     }
 }
 
@@ -5588,6 +5600,16 @@ header {
    FIXED HEADER + TRANSPARENT / SCROLLED STATES
    ==================================================== */
 
+/* Mobile accordion sub-labels */
+.mobile-mega-label {
+    font-size: .72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: var(--bs-primary);
+    margin: .6rem 0 .3rem .5rem;
+}
+
 .site-header {
     position: fixed;
     top: 0;
@@ -5596,54 +5618,6 @@ header {
     z-index: 1030;
 }
 
-/* Transparent state (over hero) */
-.main-navbar.nav-transparent {
-    background: transparent !important;
-    border-bottom-color: transparent !important;
-    box-shadow: none !important;
-}
-
-.main-navbar.nav-transparent .nav-link-custom {
-    color: rgba(255, 255, 255, 0.88) !important;
-}
-
-.main-navbar.nav-transparent .nav-link-custom:hover,
-.main-navbar.nav-transparent .nav-link-custom.active {
-    color: #ffffff !important;
-}
-
-.main-navbar.nav-transparent .nav-link-custom::after {
-    background-color: #ffffff !important;
-}
-
-.main-navbar.nav-transparent .nav-chevron {
-    color: rgba(255, 255, 255, 0.75);
-    opacity: 1;
-}
-
-.main-navbar.nav-transparent .navbar-toggler svg {
-    color: #ffffff;
-}
-
-.main-navbar.nav-transparent .btn-nav-cta {
-    background: transparent !important;
-    border: 2px solid rgba(255, 255, 255, 0.70) !important;
-    color: #ffffff !important;
-    box-shadow: none !important;
-}
-
-.main-navbar.nav-transparent .btn-nav-cta:hover {
-    background: #ffffff !important;
-    border-color: #ffffff !important;
-    color: var(--bs-secondary) !important;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 16px rgba(255, 255, 255, 0.25) !important;
-}
-
-/* Dropdown stays white even in transparent mode */
-.main-navbar.nav-transparent .header-nav .dropdown-menu {
-    background: #ffffff !important;
-}
 
 /* ====================================================
    HERO SECTION

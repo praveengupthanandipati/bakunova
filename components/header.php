@@ -58,13 +58,12 @@
         <!-- =============================================
              MAIN NAVBAR
              ============================================= -->
-        <nav class="navbar navbar-expand-xl main-navbar nav-transparent py-0" id="mainNav">
+        <nav class="navbar navbar-expand-xl main-navbar py-0" id="mainNav">
             <div class="container-90 d-flex align-items-center">
 
                 <!-- Logo — Left -->
                 <a class="navbar-brand flex-shrink-0 py-3 me-auto me-xl-4" href="index.php">
-                    <img src="img/bakunova-logo-white.png" alt="Bakunova" height="40" class="logo-white">
-                    <img src="img/bakunova-logo.png"       alt="Bakunova" height="40" class="logo-dark">
+                    <img src="img/bakunova-logo.png" alt="Bakunova" height="65">
                 </a>
 
                 <!-- Mobile Hamburger -->
@@ -105,7 +104,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link nav-link-custom d-flex align-items-center gap-1" href="#" role="button">
+                            <a class="nav-link nav-link-custom d-flex align-items-center gap-1 <?= (isset($current_page) && $current_page === 'services') ? 'active' : '' ?>" href="#" role="button">
                                 Services
                                 <svg class="nav-chevron" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
                                      viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
@@ -114,15 +113,45 @@
                                 </svg>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Technologies</a></li>
-                                <li><a class="dropdown-item" href="#">Skin Care Ingredients</a></li>
-                                <li><a class="dropdown-item" href="#">Skin Care Solutions</a></li>
-                                <li><a class="dropdown-item" href="#">Development Pipeline</a></li>
+                                <li><h6 class="dropdown-header">Advanced Delivery Services</h6></li>
+                                <li><a class="dropdown-item" href="services.php#formulation-strategy">Technology selection and formulation strategy</a></li>
+                                <li><a class="dropdown-item" href="services.php#preformulation">Ingredient-to-pre-formulation development</a></li>
+                                <li><a class="dropdown-item" href="services.php#delivery-design">Customized delivery system design</a></li>
+                                <li><a class="dropdown-item" href="services.php#value-addition">Support for value addition in finished formulations</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><h6 class="dropdown-header">Technology Platforms</h6></li>
+                                <li><a class="dropdown-item" href="services.php#liposomes">Liposomes</a></li>
+                                <li><a class="dropdown-item" href="services.php#microsponge">Microsponge systems</a></li>
+                                <li><a class="dropdown-item" href="services.php#ionic-liquid">Ionic liquid / CAGE technology</a></li>
+                                <li><a class="dropdown-item" href="services.php#sln">Solid lipid nanoparticles (SLNs)</a></li>
+                                <li><a class="dropdown-item" href="services.php#microemulsions">Microemulsions</a></li>
+                                <li><a class="dropdown-item" href="services.php#cyclodextrin">β-Cyclodextrin complexation</a></li>
+                                <li><a class="dropdown-item" href="services.php#encapsulation">Additional encapsulation and controlled-release systems</a></li>
                             </ul>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link nav-link-custom">Products</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-link-custom d-flex align-items-center gap-1 <?= (isset($current_page) && $current_page === 'products') ? 'active' : '' ?>" href="#" role="button">
+                                Products
+                                <svg class="nav-chevron" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                     stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><h6 class="dropdown-header">Premium Native Ingredients</h6></li>
+                                <li><a class="dropdown-item" href="products.php#bakuchiol">Bakuchiol</a></li>
+                                <li><a class="dropdown-item" href="products.php#rosmarinic-acid">Rosmarinic Acid</a></li>
+                                <li><a class="dropdown-item" href="products.php#hpr">Hydroxypinacolone Retinoate (HPR)</a></li>
+                                <li><a class="dropdown-item" href="products.php#salicylic-acid">Natural Salicylic Acid</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><h6 class="dropdown-header">Value-Added Pre-Formulations</h6></li>
+                                <li><a class="dropdown-item" href="products.php#formulation-ready">Formulation-ready ingredients</a></li>
+                                <li><a class="dropdown-item" href="products.php#encapsulated">Encapsulated, stabilized, and solubilized actives</a></li>
+                                <li><a class="dropdown-item" href="products.php#delivery-enhanced">Delivery-enhanced systems for improved performance</a></li>
+                                <li><a class="dropdown-item" href="products.php#skin-delivery">Designed for superior skin delivery and formulation convenience</a></li>
+                            </ul>
                         </li>
 
                         <li class="nav-item">
@@ -200,8 +229,8 @@
                              data-bs-parent="#mobileNavAccordion">
                             <div class="accordion-body pt-0 pb-2">
                                 <nav class="nav flex-column gap-1">
-                                    <a class="nav-link" href="#">About Us</a>
-                                    <a class="nav-link" href="#">Leadership</a>
+                                    <a class="nav-link" href="about.php">About Us</a>
+                                    <a class="nav-link" href="leadership.php">Leadership</a>
                                 </nav>
                             </div>
                         </div>
@@ -219,19 +248,55 @@
                         <div id="mobileServices" class="accordion-collapse collapse"
                              data-bs-parent="#mobileNavAccordion">
                             <div class="accordion-body pt-0 pb-2">
+                                <p class="mobile-mega-label">Advanced Delivery Services</p>
+                                <nav class="nav flex-column gap-1 mb-2">
+                                    <a class="nav-link" href="services.php#formulation-strategy">Technology selection and formulation strategy</a>
+                                    <a class="nav-link" href="services.php#preformulation">Ingredient-to-pre-formulation development</a>
+                                    <a class="nav-link" href="services.php#delivery-design">Customized delivery system design</a>
+                                    <a class="nav-link" href="services.php#value-addition">Support for value addition in finished formulations</a>
+                                </nav>
+                                <p class="mobile-mega-label">Technology Platforms</p>
                                 <nav class="nav flex-column gap-1">
-                                    <a class="nav-link" href="#">Technologies</a>
-                                    <a class="nav-link" href="#">Skin Care Ingredients</a>
-                                    <a class="nav-link" href="#">Skin Care Solutions</a>
-                                    <a class="nav-link" href="#">Development Pipeline</a>
+                                    <a class="nav-link" href="services.php#liposomes">Liposomes</a>
+                                    <a class="nav-link" href="services.php#microsponge">Microsponge systems</a>
+                                    <a class="nav-link" href="services.php#ionic-liquid">Ionic liquid / CAGE technology</a>
+                                    <a class="nav-link" href="services.php#sln">Solid lipid nanoparticles (SLNs)</a>
+                                    <a class="nav-link" href="services.php#microemulsions">Microemulsions</a>
+                                    <a class="nav-link" href="services.php#cyclodextrin">β-Cyclodextrin complexation</a>
+                                    <a class="nav-link" href="services.php#encapsulation">Additional encapsulation and controlled-release systems</a>
                                 </nav>
                             </div>
                         </div>
                     </div>
 
                     <!-- Products -->
-                    <div class="mobile-nav-link-item">
-                        <a href="#" class="nav-link fw-semibold py-3 px-2">Products</a>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#mobileProducts"
+                                    aria-expanded="false">
+                                Products
+                            </button>
+                        </h2>
+                        <div id="mobileProducts" class="accordion-collapse collapse"
+                             data-bs-parent="#mobileNavAccordion">
+                            <div class="accordion-body pt-0 pb-2">
+                                <p class="mobile-mega-label">Premium Native Ingredients</p>
+                                <nav class="nav flex-column gap-1 mb-2">
+                                    <a class="nav-link" href="products.php#bakuchiol">Bakuchiol</a>
+                                    <a class="nav-link" href="products.php#rosmarinic-acid">Rosmarinic Acid</a>
+                                    <a class="nav-link" href="products.php#hpr">Hydroxypinacolone Retinoate (HPR)</a>
+                                    <a class="nav-link" href="products.php#salicylic-acid">Natural Salicylic Acid</a>
+                                </nav>
+                                <p class="mobile-mega-label">Value-Added Pre-Formulations</p>
+                                <nav class="nav flex-column gap-1">
+                                    <a class="nav-link" href="products.php#formulation-ready">Formulation-ready ingredients</a>
+                                    <a class="nav-link" href="products.php#encapsulated">Encapsulated, stabilized, and solubilized actives</a>
+                                    <a class="nav-link" href="products.php#delivery-enhanced">Delivery-enhanced systems for improved performance</a>
+                                    <a class="nav-link" href="products.php#skin-delivery">Designed for superior skin delivery and formulation convenience</a>
+                                </nav>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Quality -->

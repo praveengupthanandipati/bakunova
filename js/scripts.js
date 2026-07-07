@@ -32,15 +32,13 @@ AOS.init({
 });
 
 /* -----------------------------------------------
-   MAIN NAVBAR — TRANSPARENT ↔ SOLID ON SCROLL
+   MAIN NAVBAR — SCROLL SHADOW
 ----------------------------------------------- */
 (function () {
     var nav = document.getElementById('mainNav');
     if (!nav) return;
     function tick() {
-        var past = window.scrollY > 80;
-        nav.classList.toggle('scrolled', past);
-        nav.classList.toggle('nav-transparent', !past);
+        nav.classList.toggle('scrolled', window.scrollY > 80);
     }
     window.addEventListener('scroll', tick, { passive: true });
     tick();

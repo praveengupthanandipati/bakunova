@@ -80,15 +80,12 @@ include 'components/header.php';
         <section class="abt-overview">
             <div class="container-90">
                 <div class="row g-5 align-items-center">
-
                     <!-- Left: Text -->
                     <div class="col-lg-6">
-
                         <div data-aos="fade-up" data-aos-duration="700">
                             <span class="section-eyebrow">Who We Are</span>
                             <h2 class="section-heading">About Bakunova</h2>
                         </div>
-
                         <div class="abt-overview__text mt-4"
                              data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                             <p>Bakunova is a specialty cosmetic ingredient company and a proud division of Drug Discovery Labs, USA. We are focused on developing premium active ingredients and advanced delivery technologies for next-generation skincare products.</p>
