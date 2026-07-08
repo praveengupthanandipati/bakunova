@@ -6,6 +6,7 @@
     <title><?= isset($page_title) ? htmlspecialchars($page_title) . ' — Bakunova' : 'Bakunova | Premium Cosmetic Actives & Delivery Technologies' ?></title>
     <meta name="description" content="<?= isset($meta_description) ? htmlspecialchars($meta_description) : 'Bakunova develops premium cosmetic actives and advanced delivery technologies for next-generation skincare brands.' ?>">
     <meta name="keywords" content="<?= isset($meta_keywords) ? htmlspecialchars($meta_keywords) : 'Bakunova, cosmetic actives, delivery technologies, skincare ingredients, Drug Discovery Labs' ?>">
+    <link rel="icon" href="img/fav.png" type="image/png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/swiper.min.css">
@@ -88,19 +89,8 @@
                             <a href="index.php" class="nav-link nav-link-custom <?= (isset($current_page) && $current_page === 'home') ? 'active' : '' ?>">Home</a>
                         </li>
 
-                        <li class="nav-item dropdown">
-                            <a class="nav-link nav-link-custom d-flex align-items-center gap-1 <?= (isset($current_page) && $current_page === 'company') ? 'active' : '' ?>" href="#" role="button">
-                                Company
-                                <svg class="nav-chevron" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
-                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                     stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="6 9 12 15 18 9"></polyline>
-                                </svg>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="about.php">About Us</a></li>
-                                <li><a class="dropdown-item" href="leadership.php">Leadership</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a href="about.php" class="nav-link nav-link-custom <?= (isset($current_page) && in_array($current_page, ['company','about'])) ? 'active' : '' ?>">About Us</a>
                         </li>
 
                         <!-- SERVICES MEGA MENU -->
@@ -273,7 +263,7 @@
                                                 </span>
                                             </a>
 
-                                            <a class="mn-item" href="products.php#rosmarinic-acid">
+                                            <a class="mn-item" href="rosmarinic-acid.php">
                                                 <span class="mn-item__icon mn-icon--green">
                                                     <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
                                                 </span>
@@ -363,9 +353,6 @@
                             <a href="#" class="nav-link nav-link-custom">Quality</a>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link nav-link-custom">FAQ's</a>
-                        </li>
                     </ul>
 
                     <!-- Right: Contact Us CTA -->
@@ -416,24 +403,9 @@
                         <a href="index.php" class="nav-link fw-semibold py-3 px-2">Home</a>
                     </div>
 
-                    <!-- Company -->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#mobileCompany"
-                                    aria-expanded="false">
-                                Company
-                            </button>
-                        </h2>
-                        <div id="mobileCompany" class="accordion-collapse collapse"
-                             data-bs-parent="#mobileNavAccordion">
-                            <div class="accordion-body pt-0 pb-2">
-                                <nav class="nav flex-column gap-1">
-                                    <a class="nav-link" href="about.php">About Us</a>
-                                    <a class="nav-link" href="leadership.php">Leadership</a>
-                                </nav>
-                            </div>
-                        </div>
+                    <!-- About Us -->
+                    <div class="mobile-nav-link-item">
+                        <a href="about.php" class="nav-link fw-semibold py-3 px-2">About Us</a>
                     </div>
 
                     <!-- Services -->
@@ -484,7 +456,7 @@
                                 <p class="mobile-mega-label">Premium Native Ingredients</p>
                                 <nav class="nav flex-column gap-1 mb-2">
                                     <a class="nav-link" href="products.php#bakuchiol">Bakuchiol</a>
-                                    <a class="nav-link" href="products.php#rosmarinic-acid">Rosmarinic Acid</a>
+                                    <a class="nav-link" href="rosmarinic-acid.php">Rosmarinic Acid</a>
                                     <a class="nav-link" href="products.php#hpr">Hydroxypinacolone Retinoate (HPR)</a>
                                     <a class="nav-link" href="products.php#salicylic-acid">Natural Salicylic Acid</a>
                                 </nav>
@@ -502,11 +474,6 @@
                     <!-- Quality -->
                     <div class="mobile-nav-link-item">
                         <a href="#" class="nav-link fw-semibold py-3 px-2">Quality</a>
-                    </div>
-
-                    <!-- FAQ's -->
-                    <div class="mobile-nav-link-item">
-                        <a href="#" class="nav-link fw-semibold py-3 px-2">FAQ's</a>
                     </div>
 
                     <!-- Contact -->

@@ -82,8 +82,8 @@
                     <div class="col-6 col-sm-4 col-lg-2">
                         <h4 class="footer-heading">Company</h4>
                         <ul class="footer-links-list">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Leadership</a></li>
+                            <li><a href="about.php">About Us</a></li>
+                            <li><a href="about.php#leadership">Leadership</a></li>
                             <li><a href="#">Quality</a></li>
                             <li><a href="#">Careers</a></li>
                             <li><a href="#">News &amp; Blog</a></li>
@@ -108,7 +108,7 @@
                         <ul class="footer-links-list mb-4">
                             <li><a href="#">Bakuchiol</a></li>
                             <li><a href="#">Hydroxypinacolone Retinoate</a></li>
-                            <li><a href="#">Rosmarinic Acid</a></li>
+                            <li><a href="rosmarinic-acid.php">Rosmarinic Acid</a></li>
                             <li><a href="#">View All Products</a></li>
                         </ul>
                     </div>
