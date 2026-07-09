@@ -52,9 +52,9 @@ include 'components/header.php';
 
                     <p class="ra-hero__desc"
                        data-aos="fade-up" data-aos-duration="700" data-aos-delay="310">
-                        Bakunova elevates Rosmarinic Acid into advanced delivery systems —
-                        maximising its antioxidant, anti-inflammatory, and skin-protective
-                        benefits in every formulation.
+                        Bakunova offers premium cosmetic active ingredients manufactured under
+                        GMP quality standards, delivering consistent, reliable, and
+                        high-performance solutions for global skincare brands.
                     </p>
 
                     <!-- Spec pills -->
@@ -150,7 +150,7 @@ include 'components/header.php';
                  data-aos="fade-up" data-aos-duration="700">
                 <span class="ra-section-eyebrow">Why Rosmarinic Acid</span>
                 <h2 class="ra-section-heading">Science-Backed Performance</h2>
-                <p class="ra-section-sub">Every Bakunova Rosmarinic Acid solution is engineered for formulators who demand the best.</p>
+                <p class="ra-section-sub">A naturally derived polyphenol active targeting key biological pathways involved in oxidative stress, inflammation, skin barrier protection, and tone uniformity.</p>
             </div>
 
             <div class="row g-4">
@@ -166,8 +166,8 @@ include 'components/header.php';
                                 <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
                             </svg>
                         </div>
-                        <h4 class="ra-feat-card__title">Science-Backed Innovation</h4>
-                        <p class="ra-feat-card__desc">Proven polyphenol ingredient with advanced cosmetic delivery.</p>
+                        <h4 class="ra-feat-card__title">Antioxidant &amp; Oxidative Stress Protection</h4>
+                        <p class="ra-feat-card__desc">Helps neutralize reactive oxygen species and reduce oxidative stress–mediated skin damage, supporting healthier-looking and more resilient skin.</p>
                     </div>
                 </div>
 
@@ -182,8 +182,8 @@ include 'components/header.php';
                                 <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                             </svg>
                         </div>
-                        <h4 class="ra-feat-card__title">Enhanced Stability</h4>
-                        <p class="ra-feat-card__desc">Improved bioavailability and extended shelf life in every format.</p>
+                        <h4 class="ra-feat-card__title">Inflammatory Balance &amp; Skin Comfort</h4>
+                        <p class="ra-feat-card__desc">Supports regulation of inflammation-associated pathways, helping calm stressed skin and improve overall skin comfort.</p>
                     </div>
                 </div>
 
@@ -200,8 +200,8 @@ include 'components/header.php';
                                 <circle cx="12" cy="12" r="2"/>
                             </svg>
                         </div>
-                        <h4 class="ra-feat-card__title">Superior Performance</h4>
-                        <p class="ra-feat-card__desc">Better skin penetration, antioxidant efficacy, and anti-inflammatory action.</p>
+                        <h4 class="ra-feat-card__title">Skin Barrier &amp; Protective Support</h4>
+                        <p class="ra-feat-card__desc">Helps protect skin from environmental stressors while supporting barrier integrity and long-term skin quality.</p>
                     </div>
                 </div>
 
@@ -216,8 +216,8 @@ include 'components/header.php';
                                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                             </svg>
                         </div>
-                        <h4 class="ra-feat-card__title">Formulation Excellence</h4>
-                        <p class="ra-feat-card__desc">Ready-to-use solutions. Time-saving. Cost-effective for your formulation team.</p>
+                        <h4 class="ra-feat-card__title">Tone Uniformity &amp; Radiance Support</h4>
+                        <p class="ra-feat-card__desc">Supports pigmentation balance and reduces oxidative stress–linked dullness, helping improve visible radiance and overall tone uniformity.</p>
                     </div>
                 </div>
 
@@ -261,7 +261,7 @@ include 'components/header.php';
                     <div class="ra-sol-card">
                         <div class="ra-sol-card__num">01</div>
                         <div class="ra-sol-card__img-wrap">
-                            <img src="img/RosmarinicAcid/img02.jpg" alt="Liposomal Rosmarinic Acid" class="ra-sol-card__img">
+                            <img src="img/Bakuchiol/Liposomal%20Bakuchiol.jpeg" alt="Liposomal Rosmarinic Acid" class="ra-sol-card__img">
                         </div>
                         <div class="ra-sol-card__body">
                             <h3 class="ra-sol-card__title">Liposomal Rosmarinic Acid</h3>
@@ -280,7 +280,7 @@ include 'components/header.php';
                     <div class="ra-sol-card">
                         <div class="ra-sol-card__num">02</div>
                         <div class="ra-sol-card__img-wrap">
-                            <img src="img/RosmarinicAcid/img03.jpg" alt="Rosmarinic Acid Microemulsion" class="ra-sol-card__img">
+                            <img src="img/Bakuchiol/Bakuchiol%20Microemulsion.jpeg" alt="Rosmarinic Acid Microemulsion" class="ra-sol-card__img">
                         </div>
                         <div class="ra-sol-card__body">
                             <h3 class="ra-sol-card__title">Rosmarinic Acid Microemulsion</h3>
@@ -299,7 +299,7 @@ include 'components/header.php';
                     <div class="ra-sol-card">
                         <div class="ra-sol-card__num">03</div>
                         <div class="ra-sol-card__img-wrap">
-                            <img src="img/RosmarinicAcid/img04.jpg" alt="Rosmarinic Acid Beta CD Complex" class="ra-sol-card__img">
+                            <img src="img/Bakuchiol/Bakuchiol%20Beta%20CD%20Complex.jpeg" alt="Rosmarinic Acid Beta CD Complex" class="ra-sol-card__img">
                         </div>
                         <div class="ra-sol-card__body">
                             <h3 class="ra-sol-card__title">Rosmarinic Acid Beta CD Complex</h3>
@@ -318,7 +318,7 @@ include 'components/header.php';
                     <div class="ra-sol-card">
                         <div class="ra-sol-card__num">04</div>
                         <div class="ra-sol-card__img-wrap">
-                            <img src="img/RosmarinicAcid/img05.jpg" alt="Rosmarinic Acid Solid Lipid Nanoparticles" class="ra-sol-card__img">
+                            <img src="img/Bakuchiol/Solid%20lipped%20nanoparticle.jpeg" alt="Rosmarinic Acid Solid Lipid Nanoparticles" class="ra-sol-card__img">
                         </div>
                         <div class="ra-sol-card__body">
                             <h3 class="ra-sol-card__title">Rosmarinic Acid Solid Lipid Nanoparticles</h3>
@@ -337,7 +337,7 @@ include 'components/header.php';
                     <div class="ra-sol-card">
                         <div class="ra-sol-card__num">05</div>
                         <div class="ra-sol-card__img-wrap">
-                            <img src="img/RosmarinicAcid/img06.jpg" alt="Rosmarinic Acid Ionic Liquid (CAGE)" class="ra-sol-card__img">
+                            <img src="img/Bakuchiol/Bakuchiol%20Ionic%20Liquid.jpeg" alt="Rosmarinic Acid Ionic Liquid (CAGE)" class="ra-sol-card__img">
                         </div>
                         <div class="ra-sol-card__body">
                             <h3 class="ra-sol-card__title">Rosmarinic Acid Ionic Liquid (CAGE)</h3>
@@ -454,7 +454,7 @@ include 'components/header.php';
 
             <p class="abt-cta__desc"
                data-aos="fade-up" data-aos-duration="700" data-aos-delay="260">
-                Choose from our range of formulation-ready Rosmarinic Acid delivery systems — each designed for seamless integration and superior antioxidant performance.
+                From premium Rosmarinic Acid active to advanced skincare solutions — Bakunova's customized delivery technologies enhance active protection, stability, controlled release, and skin performance for next-generation differentiated formulations.
             </p>
 
             <div class="abt-cta__btns"
