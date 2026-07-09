@@ -79,7 +79,7 @@
                     </div>
 
                     <!-- Col 2: Company Links -->
-                    <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="col-4 col-sm-4 col-lg-2">
                         <h4 class="footer-heading">Company</h4>
                         <ul class="footer-links-list">
                             <li><a href="about.php">About Us</a></li>
@@ -92,7 +92,7 @@
                     </div>
 
                     <!-- Col 3: Services Links -->
-                    <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="col-4 col-sm-4 col-lg-2">
                         <h4 class="footer-heading">Services</h4>
                         <ul class="footer-links-list">
                             <li><a href="#">Technologies</a></li>
@@ -103,7 +103,7 @@
                     </div>
 
                     <!-- Col 4: Products -->
-                    <div class="col-6 col-sm-4 col-lg-2">
+                    <div class="col-4 col-sm-4 col-lg-2">
                         <h4 class="footer-heading">Products</h4>
                         <ul class="footer-links-list">
                             <li><a href="bakuchiol.php">Bakuchiol</a></li>

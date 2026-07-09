@@ -1,8 +1,8 @@
 <?php
 $current_page     = 'products';
-$page_title       = 'Rosmarinic Acid';
-$meta_description = 'Rosmarinic Acid — a premium polyphenol active ingredient from Bakunova. Available in liposomal, microemulsion, beta-CD complex, SLN, and ionic liquid delivery formats.';
-$meta_keywords    = 'Rosmarinic Acid, polyphenol antioxidant, rosmarinic acid cosmetic ingredient, liposomal rosmarinic acid, microemulsion, SLN, CAGE technology, Bakunova, CAS 20283-92-5';
+$page_title       = 'Hydroxypinacolone Retinoate (HPR)';
+$meta_description = 'Hydroxypinacolone Retinoate (HPR) — a next-generation retinoid ester from Bakunova. Available in liposomal, microemulsion, beta-CD complex, SLN, and ionic liquid delivery formats.';
+$meta_keywords    = 'Hydroxypinacolone Retinoate, HPR, retinoid ester, retinol alternative, liposomal HPR, microemulsion, SLN, CAGE technology, Bakunova, CAS 893412-73-2';
 include 'components/header.php';
 ?>
 
@@ -31,23 +31,23 @@ include 'components/header.php';
                         <span>›</span>
                         <a href="products.php">Products</a>
                         <span>›</span>
-                        <span>Rosmarinic Acid</span>
+                        <span>Hydroxypinacolone Retinoate</span>
                     </nav>
 
                     <div class="ra-hero__eyebrow"
                          data-aos="fade-up" data-aos-duration="700" data-aos-delay="80">
-                        Premium Polyphenol Active Ingredient
+                        Premium Retinoid Ester Active Ingredient
                     </div>
 
                     <h1 class="ra-hero__title"
                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="160">
-                        Rosmarinic Acid
+                        Hydroxypinacolone Retinoate (HPR)
                     </h1>
 
                     <p class="ra-hero__tagline"
                        data-aos="fade-up" data-aos-duration="700" data-aos-delay="240">
-                        Botanical potency.<br>
-                        <span>Delivery-enhanced precision.</span>
+                        Retinoid precision.<br>
+                        <span>Skin-kind delivery.</span>
                     </p>
 
                     <p class="ra-hero__desc"
@@ -69,7 +69,7 @@ include 'components/header.php';
                             </svg>
                             <div>
                                 <span class="ra-spec-pill__label">INCI</span>
-                                <strong>Rosmarinic Acid</strong>
+                                <strong>Hydroxypinacolone Retinoate</strong>
                             </div>
                         </div>
 
@@ -84,7 +84,7 @@ include 'components/header.php';
                             </svg>
                             <div>
                                 <span class="ra-spec-pill__label">CAS No.</span>
-                                <strong>20283-92-5</strong>
+                                <strong>893412-73-2</strong>
                             </div>
                         </div>
 
@@ -93,10 +93,10 @@ include 'components/header.php';
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"
                                  stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
-                            </svg>
+                                </svg>
                             <div>
-                                <span class="ra-spec-pill__label">Source</span>
-                                <strong>Rosemary / Sage</strong>
+                                <span class="ra-spec-pill__label">Type</span>
+                                <strong>Retinoid Ester</strong>
                             </div>
                         </div>
 
@@ -109,7 +109,7 @@ include 'components/header.php';
                              stroke-linecap="round" stroke-linejoin="round">
                             <polyline points="20 6 9 17 4 12"/>
                         </svg>
-                        Potent polyphenol antioxidant
+                        Next-generation retinoid ester
                     </div>
 
                 </div>
@@ -118,16 +118,16 @@ include 'components/header.php';
                 <div class="col-lg-6 order-1 order-lg-2"
                      data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
                     <div class="ra-hero__visual">
-                        <img src="img/RosmarinicAcid/img01.jpg"
-                             alt="Rosmarinic Acid — rosemary plant and molecular structure"
+                        <img src="img/hpr/hprimg01.jpg"
+                             alt="Hydroxypinacolone Retinoate — molecular structure and retinoid science"
                              class="ra-hero__img">
 
                         <!-- Floating chemical info card -->
                         <div class="ra-hero__chem-card"
                              data-aos="fade-up" data-aos-duration="700" data-aos-delay="600">
-                            <div class="ra-hero__chem-formula">C₁₈H₁₆O₈</div>
+                            <div class="ra-hero__chem-formula">C₂₆H₃₈O₄</div>
                             <div class="ra-hero__chem-label">Molecular Formula</div>
-                            <div class="ra-hero__chem-mw">MW: 360.31 g/mol</div>
+                            <div class="ra-hero__chem-mw">MW: 418.58 g/mol</div>
                         </div>
 
                         <div class="ra-hero__visual-ring ra-hero__visual-ring--1"></div>
@@ -148,9 +148,9 @@ include 'components/header.php';
 
             <div class="text-center mb-5"
                  data-aos="fade-up" data-aos-duration="700">
-                <span class="ra-section-eyebrow">Why Rosmarinic Acid</span>
+                <span class="ra-section-eyebrow">Why Hydroxypinacolone Retinoate</span>
                 <h2 class="ra-section-heading">Science-Backed Performance</h2>
-                <p class="ra-section-sub">A naturally derived polyphenol active targeting key biological pathways involved in oxidative stress, inflammation, skin barrier protection, and tone uniformity.</p>
+                <p class="ra-section-sub">A next-generation retinoid ester targeting key biological pathways involved in skin aging, renewal, pigmentation control, and sebum regulation — with superior tolerability.</p>
             </div>
 
             <div class="row g-4">
@@ -159,15 +159,14 @@ include 'components/header.php';
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">
                     <div class="ra-feat-card ra-feat-card--1">
                         <div class="ra-feat-card__icon">
-                            <!-- Microscope / science -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
                                  stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
                             </svg>
                         </div>
-                        <h4 class="ra-feat-card__title">Antioxidant &amp; Oxidative Stress Protection</h4>
-                        <p class="ra-feat-card__desc">Helps neutralize reactive oxygen species and reduce oxidative stress–mediated skin damage, supporting healthier-looking and more resilient skin.</p>
+                        <h4 class="ra-feat-card__title">Anti-Aging &amp; Skin Renewal</h4>
+                        <p class="ra-feat-card__desc">Directly activates retinoid receptors to stimulate collagen and elastin synthesis, accelerate cell turnover, and visibly reduce fine lines and wrinkles.</p>
                     </div>
                 </div>
 
@@ -175,15 +174,14 @@ include 'components/header.php';
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
                     <div class="ra-feat-card ra-feat-card--2">
                         <div class="ra-feat-card__icon">
-                            <!-- Shield check -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
                                  stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                             </svg>
                         </div>
-                        <h4 class="ra-feat-card__title">Inflammatory Balance &amp; Skin Comfort</h4>
-                        <p class="ra-feat-card__desc">Supports regulation of inflammation-associated pathways, helping calm stressed skin and improve overall skin comfort.</p>
+                        <h4 class="ra-feat-card__title">Retinol-Like Efficacy with Superior Tolerability</h4>
+                        <p class="ra-feat-card__desc">Delivers comparable retinoid activity to retinol via the same biological pathway with significantly reduced irritation, redness, and skin sensitivity.</p>
                     </div>
                 </div>
 
@@ -191,7 +189,6 @@ include 'components/header.php';
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
                     <div class="ra-feat-card ra-feat-card--3">
                         <div class="ra-feat-card__icon">
-                            <!-- Target -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
                                  stroke-linecap="round" stroke-linejoin="round">
@@ -200,8 +197,8 @@ include 'components/header.php';
                                 <circle cx="12" cy="12" r="2"/>
                             </svg>
                         </div>
-                        <h4 class="ra-feat-card__title">Skin Barrier &amp; Protective Support</h4>
-                        <p class="ra-feat-card__desc">Helps protect skin from environmental stressors while supporting barrier integrity and long-term skin quality.</p>
+                        <h4 class="ra-feat-card__title">Pigmentation &amp; Tone Uniformity</h4>
+                        <p class="ra-feat-card__desc">Modulates melanin synthesis pathways to address hyperpigmentation, dark spots, and uneven skin tone — promoting a visibly brighter complexion.</p>
                     </div>
                 </div>
 
@@ -209,15 +206,14 @@ include 'components/header.php';
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
                     <div class="ra-feat-card ra-feat-card--4">
                         <div class="ra-feat-card__icon">
-                            <!-- Handshake / formulation excellence -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
                                  stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                             </svg>
                         </div>
-                        <h4 class="ra-feat-card__title">Tone Uniformity &amp; Radiance Support</h4>
-                        <p class="ra-feat-card__desc">Supports pigmentation balance and reduces oxidative stress–linked dullness, helping improve visible radiance and overall tone uniformity.</p>
+                        <h4 class="ra-feat-card__title">Sebum Regulation &amp; Acne Control</h4>
+                        <p class="ra-feat-card__desc">Regulates sebaceous gland activity and supports pore refinement, helping manage acne-prone skin without the harsh side effects of conventional retinoids.</p>
                     </div>
                 </div>
 
@@ -242,13 +238,13 @@ include 'components/header.php';
                  data-aos="fade-up" data-aos-duration="700">
                 <div class="ra-solutions__arrow-bar">
                     <span class="ra-arrow-line"></span>
-                    <span class="ra-arrow-label">From rosemary to next-generation delivery</span>
+                    <span class="ra-arrow-label">From retinoid ester to next-generation delivery</span>
                     <span class="ra-arrow-line"></span>
                 </div>
-                <span class="ra-section-eyebrow mt-4">Value-Added Rosmarinic Acid Solutions</span>
+                <span class="ra-section-eyebrow mt-4">Value-Added HPR Solutions</span>
                 <h2 class="ra-section-heading">Ready-to-Formulate Solutions</h2>
                 <p class="ra-section-sub">
-                    Each Rosmarinic Acid format is engineered for enhanced skin penetration, superior stability,
+                    Each HPR format is engineered for enhanced skin penetration, superior stability,
                     and seamless integration into premium cosmetic formulations.
                 </p>
             </div>
@@ -261,10 +257,10 @@ include 'components/header.php';
                     <div class="ra-sol-card">
                         <div class="ra-sol-card__num">01</div>
                         <div class="ra-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Liposomal%20Bakuchiol.jpeg" alt="Liposomal Rosmarinic Acid" class="ra-sol-card__img">
+                            <img src="img/Bakuchiol/Liposomal%20Bakuchiol.jpeg" alt="Liposomal HPR" class="ra-sol-card__img">
                         </div>
                         <div class="ra-sol-card__body">
-                            <h3 class="ra-sol-card__title">Liposomal Rosmarinic Acid</h3>
+                            <h3 class="ra-sol-card__title">Liposomal HPR</h3>
                             <p class="ra-sol-card__desc">Phospholipid bilayer encapsulation for targeted, controlled release and superior dermal penetration with enhanced skin compatibility.</p>
                             <ul class="ra-sol-card__tags">
                                 <li>Controlled Release</li>
@@ -280,10 +276,10 @@ include 'components/header.php';
                     <div class="ra-sol-card">
                         <div class="ra-sol-card__num">02</div>
                         <div class="ra-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Bakuchiol%20Microemulsion.jpeg" alt="Rosmarinic Acid Microemulsion" class="ra-sol-card__img">
+                            <img src="img/Bakuchiol/Bakuchiol%20Microemulsion.jpeg" alt="HPR Microemulsion" class="ra-sol-card__img">
                         </div>
                         <div class="ra-sol-card__body">
-                            <h3 class="ra-sol-card__title">Rosmarinic Acid Microemulsion</h3>
+                            <h3 class="ra-sol-card__title">HPR Microemulsion</h3>
                             <p class="ra-sol-card__desc">Thermodynamically stable nano-droplet system providing transparent, elegant formulation aesthetics with excellent active solubilization.</p>
                             <ul class="ra-sol-card__tags">
                                 <li>Nano-droplet Stability</li>
@@ -299,10 +295,10 @@ include 'components/header.php';
                     <div class="ra-sol-card">
                         <div class="ra-sol-card__num">03</div>
                         <div class="ra-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Bakuchiol%20Beta%20CD%20Complex.jpeg" alt="Rosmarinic Acid Beta CD Complex" class="ra-sol-card__img">
+                            <img src="img/Bakuchiol/Bakuchiol%20Beta%20CD%20Complex.jpeg" alt="HPR Beta CD Complex" class="ra-sol-card__img">
                         </div>
                         <div class="ra-sol-card__body">
-                            <h3 class="ra-sol-card__title">Rosmarinic Acid Beta CD Complex</h3>
+                            <h3 class="ra-sol-card__title">HPR Beta CD Complex</h3>
                             <p class="ra-sol-card__desc">β-Cyclodextrin inclusion complex dramatically improves aqueous solubility and photo-stability, ideal for water-based formulations.</p>
                             <ul class="ra-sol-card__tags">
                                 <li>Improved Solubility</li>
@@ -318,11 +314,11 @@ include 'components/header.php';
                     <div class="ra-sol-card">
                         <div class="ra-sol-card__num">04</div>
                         <div class="ra-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Solid%20lipped%20nanoparticle.jpeg" alt="Rosmarinic Acid Solid Lipid Nanoparticles" class="ra-sol-card__img">
+                            <img src="img/Bakuchiol/Solid%20lipped%20nanoparticle.jpeg" alt="HPR Solid Lipid Nanoparticles" class="ra-sol-card__img">
                         </div>
                         <div class="ra-sol-card__body">
-                            <h3 class="ra-sol-card__title">Rosmarinic Acid Solid Lipid Nanoparticles</h3>
-                            <p class="ra-sol-card__desc">SLN matrix provides prolonged sustained release, exceptional oxidative stability, and extended shelf life — optimal for antioxidant serums.</p>
+                            <h3 class="ra-sol-card__title">HPR Solid Lipid Nanoparticles</h3>
+                            <p class="ra-sol-card__desc">SLN matrix provides prolonged sustained release, exceptional oxidative stability, and extended shelf life — optimal for anti-aging serums.</p>
                             <ul class="ra-sol-card__tags">
                                 <li>Sustained Release</li>
                                 <li>Oxidative Stability</li>
@@ -337,10 +333,10 @@ include 'components/header.php';
                     <div class="ra-sol-card">
                         <div class="ra-sol-card__num">05</div>
                         <div class="ra-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Bakuchiol%20Ionic%20Liquid.jpeg" alt="Rosmarinic Acid Ionic Liquid (CAGE)" class="ra-sol-card__img">
+                            <img src="img/Bakuchiol/Bakuchiol%20Ionic%20Liquid.jpeg" alt="HPR Ionic Liquid (CAGE)" class="ra-sol-card__img">
                         </div>
                         <div class="ra-sol-card__body">
-                            <h3 class="ra-sol-card__title">Rosmarinic Acid Ionic Liquid (CAGE)</h3>
+                            <h3 class="ra-sol-card__title">HPR Ionic Liquid (CAGE)</h3>
                             <p class="ra-sol-card__desc">Choline-and-geranic acid ionic liquid complex unlocks unprecedented transdermal delivery without conventional solvents for maximum penetration.</p>
                             <ul class="ra-sol-card__tags">
                                 <li>Transdermal Delivery</li>
@@ -367,7 +363,6 @@ include 'components/header.php';
                      data-aos="fade-up" data-aos-duration="600" data-aos-delay="0">
                     <div class="ra-benefit-card">
                         <div class="ra-benefit-card__icon ra-benefit-icon--teal">
-                            <!-- Lab/science icon -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
                                  stroke-linecap="round" stroke-linejoin="round">
@@ -375,7 +370,7 @@ include 'components/header.php';
                             </svg>
                         </div>
                         <h5 class="ra-benefit-card__title">Science-Backed Innovation</h5>
-                        <p class="ra-benefit-card__desc">Proven ingredient. Advanced delivery.</p>
+                        <p class="ra-benefit-card__desc">Proven ingredients. Advanced delivery.</p>
                     </div>
                 </div>
 
@@ -383,7 +378,6 @@ include 'components/header.php';
                      data-aos="fade-up" data-aos-duration="600" data-aos-delay="80">
                     <div class="ra-benefit-card">
                         <div class="ra-benefit-card__icon ra-benefit-icon--blue">
-                            <!-- Shield -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
                                  stroke-linecap="round" stroke-linejoin="round">
@@ -399,7 +393,6 @@ include 'components/header.php';
                      data-aos="fade-up" data-aos-duration="600" data-aos-delay="160">
                     <div class="ra-benefit-card">
                         <div class="ra-benefit-card__icon ra-benefit-icon--green">
-                            <!-- Target -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
                                  stroke-linecap="round" stroke-linejoin="round">
@@ -409,7 +402,7 @@ include 'components/header.php';
                             </svg>
                         </div>
                         <h5 class="ra-benefit-card__title">Superior Performance</h5>
-                        <p class="ra-benefit-card__desc">Better penetration, efficacy, and safety.</p>
+                        <p class="ra-benefit-card__desc">Better penetration, efficacy &amp; safety.</p>
                     </div>
                 </div>
 
@@ -417,7 +410,6 @@ include 'components/header.php';
                      data-aos="fade-up" data-aos-duration="600" data-aos-delay="240">
                     <div class="ra-benefit-card">
                         <div class="ra-benefit-card__icon ra-benefit-icon--pink">
-                            <!-- Handshake -->
                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none"
                                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
                                  stroke-linecap="round" stroke-linejoin="round">
@@ -449,12 +441,12 @@ include 'components/header.php';
 
             <h2 class="abt-cta__title"
                 data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
-                Bring Rosmarinic Acid Into<br><span>Your Next Formula</span>
+                Bring HPR Into<br><span>Your Next Formula</span>
             </h2>
 
             <p class="abt-cta__desc"
                data-aos="fade-up" data-aos-duration="700" data-aos-delay="260">
-                From premium Rosmarinic Acid active to advanced skincare solutions — Bakunova's customized delivery technologies enhance active protection, stability, controlled release, and skin performance for next-generation differentiated formulations.
+                From premium Hydroxypinacolone Retinoate active to advanced skincare solutions — Bakunova's customized delivery technologies enhance retinoid efficacy, stability, controlled release, and skin performance for next-generation differentiated formulations.
             </p>
 
             <div class="abt-cta__btns"

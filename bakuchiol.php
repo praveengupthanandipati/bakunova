@@ -133,7 +133,7 @@ include 'components/header.php';
 
             <div class="row g-4">
 
-                <div class="col-sm-6 col-xl-3"
+                <div class="col-sm-6 col-lg-3"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">
                     <div class="bak-feat-card bak-feat-card--1">
                         <div class="bak-feat-card__icon">
@@ -148,7 +148,7 @@ include 'components/header.php';
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-xl-3"
+                <div class="col-sm-6 col-lg-3"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
                     <div class="bak-feat-card bak-feat-card--2">
                         <div class="bak-feat-card__icon">
@@ -163,7 +163,7 @@ include 'components/header.php';
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-xl-3"
+                <div class="col-sm-6 col-lg-3"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
                     <div class="bak-feat-card bak-feat-card--3">
                         <div class="bak-feat-card__icon">
@@ -178,7 +178,7 @@ include 'components/header.php';
                     </div>
                 </div>
 
-                <div class="col-sm-6 col-xl-3"
+                <div class="col-sm-6 col-lg-3"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
                     <div class="bak-feat-card bak-feat-card--4">
                         <div class="bak-feat-card__icon">
@@ -228,7 +228,7 @@ include 'components/header.php';
             </div>
 
             <!-- Cards grid -->
-            <div class="row g-3 row-cols-1 row-cols-sm-2 row-cols-lg-5 bak-sol-grid">
+            <div class="row g-3 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 bak-sol-grid">
 
                 <div class="col"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">
