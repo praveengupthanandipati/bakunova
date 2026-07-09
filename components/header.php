@@ -91,9 +91,121 @@
 
                         <li class="nav-item">
                             <a href="about.php" class="nav-link nav-link-custom <?= (isset($current_page) && in_array($current_page, ['company','about'])) ? 'active' : '' ?>">About Us</a>
+                        </li>                      
+                        <!-- PRODUCTS MEGA MENU -->
+                        <li class="nav-item dropdown mn-trigger">
+                            <a class="nav-link nav-link-custom d-flex align-items-center gap-1 <?= (isset($current_page) && $current_page === 'products') ? 'active' : '' ?>" href="#" role="button">
+                                Products
+                                <svg class="nav-chevron" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
+                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                     stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"></polyline>
+                                </svg>
+                            </a>
+                            <div class="dropdown-menu mn-panel">
+                                <div class="mn-inner">
+
+                                    <div class="mn-group">
+                                        <p class="mn-group__label">Premium Native Ingredients</p>
+                                        <div class="mn-grid mn-grid--2col">
+
+                                            <a class="mn-item" href="bakuchiol.php">
+                                                <span class="mn-item__icon mn-icon--green">
+                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                                                </span>
+                                                <span class="mn-item__body">
+                                                    <strong class="mn-item__title">Bakuchiol</strong>
+                                                    <span class="mn-item__desc">The premier natural retinol alternative from Psoralea corylifolia — clinically proven anti-ageing efficacy without irritation.</span>
+                                                </span>
+                                            </a>
+
+                                            <a class="mn-item" href="rosmarinic-acid.php">
+                                                <span class="mn-item__icon mn-icon--green">
+                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                                                </span>
+                                                <span class="mn-item__body">
+                                                    <strong class="mn-item__title">Rosmarinic Acid</strong>
+                                                    <span class="mn-item__desc">Potent natural antioxidant and anti-inflammatory from rosemary, ideal for brightening and sensitive skin formulations.</span>
+                                                </span>
+                                            </a>
+
+                                            <a class="mn-item" href="products.php#hpr">
+                                                <span class="mn-item__icon mn-icon--green">
+                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+                                                </span>
+                                                <span class="mn-item__body">
+                                                    <strong class="mn-item__title">Hydroxypinacolone Retinoate (HPR)</strong>
+                                                    <span class="mn-item__desc">Next-generation retinoid ester delivering retinol-like efficacy with significantly improved skin tolerability and stability.</span>
+                                                </span>
+                                            </a>
+
+                                            <a class="mn-item" href="products.php#salicylic-acid">
+                                                <span class="mn-item__icon mn-icon--green">
+                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 007-7c0-2-1-3.9-3-5.5S7.5 5 7.5 5L5 7.5C3.4 9.1 2 10.9 2 13a7 7 0 007 7h3z"/></svg>
+                                                </span>
+                                                <span class="mn-item__body">
+                                                    <strong class="mn-item__title">Natural Salicylic Acid</strong>
+                                                    <span class="mn-item__desc">Botanical-derived beta-hydroxy acid for gentle exfoliation, pore refinement, and acne-prone skin care formulations.</span>
+                                                </span>
+                                            </a>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="mn-divider"></div>
+
+                                    <div class="mn-group">
+                                        <p class="mn-group__label">Value-Added Pre-Formulations</p>
+                                        <div class="mn-grid mn-grid--1col">
+
+                                            <a class="mn-item" href="products.php#formulation-ready">
+                                                <span class="mn-item__icon mn-icon--orange">
+                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+                                                </span>
+                                                <span class="mn-item__body">
+                                                    <strong class="mn-item__title">Formulation-Ready Ingredients</strong>
+                                                    <span class="mn-item__desc">Pre-processed actives optimised for direct incorporation — no additional reformulation effort required on your end.</span>
+                                                </span>
+                                            </a>
+
+                                            <a class="mn-item" href="products.php#encapsulated">
+                                                <span class="mn-item__icon mn-icon--orange">
+                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                                                </span>
+                                                <span class="mn-item__body">
+                                                    <strong class="mn-item__title">Encapsulated, Stabilized &amp; Solubilized Actives</strong>
+                                                    <span class="mn-item__desc">Protected ingredients in advanced carriers ensuring stability and potency throughout the full product shelf life.</span>
+                                                </span>
+                                            </a>
+
+                                            <a class="mn-item" href="products.php#delivery-enhanced">
+                                                <span class="mn-item__icon mn-icon--orange">
+                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                                                </span>
+                                                <span class="mn-item__body">
+                                                    <strong class="mn-item__title">Delivery-Enhanced Systems for Improved Performance</strong>
+                                                    <span class="mn-item__desc">Actives combined with delivery technologies to maximise skin uptake, bioavailability, and consumer-perceived results.</span>
+                                                </span>
+                                            </a>
+
+                                            <a class="mn-item" href="products.php#skin-delivery">
+                                                <span class="mn-item__icon mn-icon--orange">
+                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                                                </span>
+                                                <span class="mn-item__body">
+                                                    <strong class="mn-item__title">Superior Skin Delivery &amp; Formulation Convenience</strong>
+                                                    <span class="mn-item__desc">Plug-and-play systems engineered for maximum formulation convenience, enhanced bioavailability, and skin compatibility.</span>
+                                                </span>
+                                            </a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </li>
 
-                        <!-- SERVICES MEGA MENU -->
+                          <!-- SERVICES MEGA MENU -->
                         <li class="nav-item dropdown mn-trigger">
                             <a class="nav-link nav-link-custom d-flex align-items-center gap-1 <?= (isset($current_page) && $current_page === 'services') ? 'active' : '' ?>" href="#" role="button">
                                 Services
@@ -236,121 +348,13 @@
                             </div>
                         </li>
 
-                        <!-- PRODUCTS MEGA MENU -->
-                        <li class="nav-item dropdown mn-trigger">
-                            <a class="nav-link nav-link-custom d-flex align-items-center gap-1 <?= (isset($current_page) && $current_page === 'products') ? 'active' : '' ?>" href="#" role="button">
-                                Products
-                                <svg class="nav-chevron" xmlns="http://www.w3.org/2000/svg" width="12" height="12"
-                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-                                     stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="6 9 12 15 18 9"></polyline>
-                                </svg>
-                            </a>
-                            <div class="dropdown-menu mn-panel">
-                                <div class="mn-inner">
-
-                                    <div class="mn-group">
-                                        <p class="mn-group__label">Premium Native Ingredients</p>
-                                        <div class="mn-grid mn-grid--2col">
-
-                                            <a class="mn-item" href="bakuchiol.php">
-                                                <span class="mn-item__icon mn-icon--green">
-                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                                                </span>
-                                                <span class="mn-item__body">
-                                                    <strong class="mn-item__title">Bakuchiol</strong>
-                                                    <span class="mn-item__desc">The premier natural retinol alternative from Psoralea corylifolia — clinically proven anti-ageing efficacy without irritation.</span>
-                                                </span>
-                                            </a>
-
-                                            <a class="mn-item" href="rosmarinic-acid.php">
-                                                <span class="mn-item__icon mn-icon--green">
-                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
-                                                </span>
-                                                <span class="mn-item__body">
-                                                    <strong class="mn-item__title">Rosmarinic Acid</strong>
-                                                    <span class="mn-item__desc">Potent natural antioxidant and anti-inflammatory from rosemary, ideal for brightening and sensitive skin formulations.</span>
-                                                </span>
-                                            </a>
-
-                                            <a class="mn-item" href="products.php#hpr">
-                                                <span class="mn-item__icon mn-icon--green">
-                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
-                                                </span>
-                                                <span class="mn-item__body">
-                                                    <strong class="mn-item__title">Hydroxypinacolone Retinoate (HPR)</strong>
-                                                    <span class="mn-item__desc">Next-generation retinoid ester delivering retinol-like efficacy with significantly improved skin tolerability and stability.</span>
-                                                </span>
-                                            </a>
-
-                                            <a class="mn-item" href="products.php#salicylic-acid">
-                                                <span class="mn-item__icon mn-icon--green">
-                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 007-7c0-2-1-3.9-3-5.5S7.5 5 7.5 5L5 7.5C3.4 9.1 2 10.9 2 13a7 7 0 007 7h3z"/></svg>
-                                                </span>
-                                                <span class="mn-item__body">
-                                                    <strong class="mn-item__title">Natural Salicylic Acid</strong>
-                                                    <span class="mn-item__desc">Botanical-derived beta-hydroxy acid for gentle exfoliation, pore refinement, and acne-prone skin care formulations.</span>
-                                                </span>
-                                            </a>
-
-                                        </div>
-                                    </div>
-
-                                    <div class="mn-divider"></div>
-
-                                    <div class="mn-group">
-                                        <p class="mn-group__label">Value-Added Pre-Formulations</p>
-                                        <div class="mn-grid mn-grid--1col">
-
-                                            <a class="mn-item" href="products.php#formulation-ready">
-                                                <span class="mn-item__icon mn-icon--orange">
-                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
-                                                </span>
-                                                <span class="mn-item__body">
-                                                    <strong class="mn-item__title">Formulation-Ready Ingredients</strong>
-                                                    <span class="mn-item__desc">Pre-processed actives optimised for direct incorporation — no additional reformulation effort required on your end.</span>
-                                                </span>
-                                            </a>
-
-                                            <a class="mn-item" href="products.php#encapsulated">
-                                                <span class="mn-item__icon mn-icon--orange">
-                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
-                                                </span>
-                                                <span class="mn-item__body">
-                                                    <strong class="mn-item__title">Encapsulated, Stabilized &amp; Solubilized Actives</strong>
-                                                    <span class="mn-item__desc">Protected ingredients in advanced carriers ensuring stability and potency throughout the full product shelf life.</span>
-                                                </span>
-                                            </a>
-
-                                            <a class="mn-item" href="products.php#delivery-enhanced">
-                                                <span class="mn-item__icon mn-icon--orange">
-                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-                                                </span>
-                                                <span class="mn-item__body">
-                                                    <strong class="mn-item__title">Delivery-Enhanced Systems for Improved Performance</strong>
-                                                    <span class="mn-item__desc">Actives combined with delivery technologies to maximise skin uptake, bioavailability, and consumer-perceived results.</span>
-                                                </span>
-                                            </a>
-
-                                            <a class="mn-item" href="products.php#skin-delivery">
-                                                <span class="mn-item__icon mn-icon--orange">
-                                                    <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                                                </span>
-                                                <span class="mn-item__body">
-                                                    <strong class="mn-item__title">Superior Skin Delivery &amp; Formulation Convenience</strong>
-                                                    <span class="mn-item__desc">Plug-and-play systems engineered for maximum formulation convenience, enhanced bioavailability, and skin compatibility.</span>
-                                                </span>
-                                            </a>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
+                         <li class="nav-item">
+                            <a href="#" class="nav-link nav-link-custom">Pipeline</a>
                         </li>
 
+
                         <li class="nav-item">
-                            <a href="#" class="nav-link nav-link-custom">Quality</a>
+                            <a href="#" class="nav-link nav-link-custom">FAQ's</a>
                         </li>
 
                     </ul>

@@ -11,7 +11,7 @@
                             <img src="img/bakunova-logo-white.png" alt="Bakunova" height="44">
                         </div>
                         <p class="footer-intro">
-                            A cosmetic division of Drug Discovery Labs, USA. We develop premium cosmetic actives and advanced delivery technologies — empowering skincare brands with formulation-ready solutions that are more stable, more effective, and truly differentiated.
+                            Bakunova develops and manufactures premium cosmetic actives and advanced delivery technology solutions. By joining hands with Drug Discovery Labs, USA as its marketing partner, Bakunova delivers innovative, high-performance, formulation-ready solutions to skincare brands worldwide.
                         </p>
 
                         <!-- Contact items -->
@@ -24,7 +24,7 @@
                                     <circle cx="12" cy="10" r="3"/>
                                 </svg>
                             </div>
-                            <span class="footer-link">Drug Discovery Labs, USA</span>
+                            <span class="footer-link">F26, FLO-TSIIC Industrial Park, Medical Devices Park, Ameenpur, Hyderabad, Telangana - 502319</span>
                         </div>
 
                         <div class="footer-contact-item">
@@ -50,7 +50,7 @@
                                     012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
                                 </svg>
                             </div>
-                            <a href="tel:+1234567890" class="footer-link">+1 (234) 567-890</a>
+                            <a href="tel:+917661898368" class="footer-link">+91 7661898368</a>
                         </div>
 
                         <!-- Social Icons -->
@@ -103,14 +103,58 @@
                     </div>
 
                     <!-- Col 4: Products -->
-                    <div class="col-12 col-sm-4 col-lg-4">
+                    <div class="col-6 col-sm-4 col-lg-2">
                         <h4 class="footer-heading">Products</h4>
-                        <ul class="footer-links-list mb-4">
-                            <li><a href="#">Bakuchiol</a></li>
+                        <ul class="footer-links-list">
+                            <li><a href="bakuchiol.php">Bakuchiol</a></li>
                             <li><a href="#">Hydroxypinacolone Retinoate</a></li>
                             <li><a href="rosmarinic-acid.php">Rosmarinic Acid</a></li>
-                            <li><a href="#">View All Products</a></li>
+                            <li><a href="products.php">View All</a></li>
                         </ul>
+                    </div>
+
+                    <!-- Col 5: Drug Discovery Labs USA -->
+                    <div class="col-12 col-sm-4 col-lg-2">
+                        <h4 class="footer-heading">Drug Discovery Labs</h4>
+                        <p class="footer-ddl-label">Marketing Partner, USA</p>
+
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                     stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <span class="footer-link">1793 NW Maynard Rd., Cary, NC 27513</span>
+                        </div>
+
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                     stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <a href="mailto:bpandi@drugdiscoverylabs.com" class="footer-link">bpandi@drugdiscoverylabs.com</a>
+                        </div>
+
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                     stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0
+                                    01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361
+                                    1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0
+                                    012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                                </svg>
+                            </div>
+                            <a href="tel:+19193899258" class="footer-link">+1 (919) 389-9258</a>
+                        </div>
                     </div>
 
                 </div><!-- /row -->

@@ -53,9 +53,10 @@ include 'components/header.php';
 
                     <p class="bak-hero__desc"
                        data-aos="fade-up" data-aos-duration="700" data-aos-delay="310">
-                        Bakunova transforms nature-backed actives into innovative,
-                        ready-to-formulate solutions for superior stability, efficacy,
-                        and performance.
+                        Bakunova offers premium-grade Bakuchiol with strong manufacturing expertise,
+                        established supply chain partnerships, and GMP quality standards —
+                        delivering consistent, reliable, and high-performance cosmetic active
+                        ingredients for global skincare brands.
                     </p>
 
                     <!-- Spec pills -->
@@ -127,7 +128,7 @@ include 'components/header.php';
                  data-aos="fade-up" data-aos-duration="700">
                 <span class="bak-section-eyebrow">Why Bakuchiol</span>
                 <h2 class="bak-section-heading">Science-Backed Performance</h2>
-                <p class="bak-section-sub">Every Bakunova Bakuchiol solution is engineered for formulators who demand the best.</p>
+                <p class="bak-section-sub">A clinically recognized plant-derived retinoid alternative targeting key biological pathways involved in skin aging, inflammation, oxidative stress, and barrier function.</p>
             </div>
 
             <div class="row g-4">
@@ -142,8 +143,8 @@ include 'components/header.php';
                                 <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
                             </svg>
                         </div>
-                        <h4 class="bak-feat-card__title">Science-Backed Innovation</h4>
-                        <p class="bak-feat-card__desc">Driven by research. Validated by results.</p>
+                        <h4 class="bak-feat-card__title">Collagen Support &amp; Skin Aging Management</h4>
+                        <p class="bak-feat-card__desc">Promotes extracellular matrix homeostasis by supporting collagen synthesis pathways, improving skin firmness, elasticity, and reducing visible signs of photoaging.</p>
                     </div>
                 </div>
 
@@ -157,8 +158,8 @@ include 'components/header.php';
                                 <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                             </svg>
                         </div>
-                        <h4 class="bak-feat-card__title">Enhanced Stability</h4>
-                        <p class="bak-feat-card__desc">Advanced delivery systems for long-lasting performance.</p>
+                        <h4 class="bak-feat-card__title">Acne-Prone Skin &amp; Inflammatory Balance</h4>
+                        <p class="bak-feat-card__desc">Helps regulate acne-associated pathways through anti-inflammatory, antioxidant, and sebum-modulating effects, supporting clearer and healthier-looking skin.</p>
                     </div>
                 </div>
 
@@ -172,8 +173,8 @@ include 'components/header.php';
                                 <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
                             </svg>
                         </div>
-                        <h4 class="bak-feat-card__title">Superior Performance</h4>
-                        <p class="bak-feat-card__desc">Improved bioavailability and skin benefits.</p>
+                        <h4 class="bak-feat-card__title">Oxidative Stress Protection &amp; Skin Tone Improvement</h4>
+                        <p class="bak-feat-card__desc">Reduces oxidative stress-mediated skin damage and supports pigmentation balance, helping improve skin radiance and overall tone uniformity.</p>
                     </div>
                 </div>
 
@@ -187,8 +188,8 @@ include 'components/header.php';
                                 <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                             </svg>
                         </div>
-                        <h4 class="bak-feat-card__title">Formulation Excellence</h4>
-                        <p class="bak-feat-card__desc">Plug-and-play solutions for modern formulations.</p>
+                        <h4 class="bak-feat-card__title">Retinol-Like Activity with Improved Tolerability</h4>
+                        <p class="bak-feat-card__desc">Provides retinoid-inspired skin renewal benefits while demonstrating improved compatibility for sensitive skin and long-term cosmetic applications.</p>
                     </div>
                 </div>
 
@@ -234,7 +235,7 @@ include 'components/header.php';
                     <div class="bak-sol-card">
                         <div class="bak-sol-card__num">01</div>
                         <div class="bak-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/img03.jpg" alt="Liposomal Bakuchiol" class="bak-sol-card__img">
+                            <img src="img/Bakuchiol/Liposomal%20Bakuchiol.jpeg" alt="Liposomal Bakuchiol" class="bak-sol-card__img">
                         </div>
                         <div class="bak-sol-card__body">
                             <h3 class="bak-sol-card__title">Liposomal Bakuchiol</h3>
@@ -253,7 +254,7 @@ include 'components/header.php';
                     <div class="bak-sol-card">
                         <div class="bak-sol-card__num">02</div>
                         <div class="bak-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/img04.jpg" alt="Bakuchiol Microemulsion" class="bak-sol-card__img">
+                            <img src="img/Bakuchiol/Bakuchiol%20Microemulsion.jpeg" alt="Bakuchiol Microemulsion" class="bak-sol-card__img">
                         </div>
                         <div class="bak-sol-card__body">
                             <h3 class="bak-sol-card__title">Bakuchiol Microemulsion</h3>
@@ -272,7 +273,7 @@ include 'components/header.php';
                     <div class="bak-sol-card">
                         <div class="bak-sol-card__num">03</div>
                         <div class="bak-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/img05.jpg" alt="Bakuchiol Beta CD Complex" class="bak-sol-card__img">
+                            <img src="img/Bakuchiol/Bakuchiol%20Beta%20CD%20Complex.jpeg" alt="Bakuchiol Beta CD Complex" class="bak-sol-card__img">
                         </div>
                         <div class="bak-sol-card__body">
                             <h3 class="bak-sol-card__title">Bakuchiol Beta CD Complex</h3>
@@ -291,7 +292,7 @@ include 'components/header.php';
                     <div class="bak-sol-card">
                         <div class="bak-sol-card__num">04</div>
                         <div class="bak-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/img06.jpg" alt="Bakuchiol Solid Lipid Nanoparticles" class="bak-sol-card__img">
+                            <img src="img/Bakuchiol/Solid%20lipped%20nanoparticle.jpeg" alt="Bakuchiol Solid Lipid Nanoparticles" class="bak-sol-card__img">
                         </div>
                         <div class="bak-sol-card__body">
                             <h3 class="bak-sol-card__title">Bakuchiol Solid Lipid Nanoparticles</h3>
@@ -310,7 +311,7 @@ include 'components/header.php';
                     <div class="bak-sol-card">
                         <div class="bak-sol-card__num">05</div>
                         <div class="bak-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/img07.jpg" alt="Bakuchiol Ionic Liquid (CAGE)" class="bak-sol-card__img">
+                            <img src="img/Bakuchiol/Bakuchiol%20Ionic%20Liquid.jpeg" alt="Bakuchiol Ionic Liquid (CAGE)" class="bak-sol-card__img">
                         </div>
                         <div class="bak-sol-card__body">
                             <h3 class="bak-sol-card__title">Bakuchiol Ionic Liquid (CAGE)</h3>
@@ -346,7 +347,7 @@ include 'components/header.php';
 
             <p class="abt-cta__desc"
                data-aos="fade-up" data-aos-duration="700" data-aos-delay="260">
-                Choose from our range of formulation-ready Bakuchiol delivery systems — each designed for seamless integration and superior skin performance.
+                From active ingredient to high-performance skincare solution — Bakunova's tailored Bakuchiol delivery technologies enhance protection, controlled release, and skin performance for differentiated formulations.
             </p>
 
             <div class="abt-cta__btns"

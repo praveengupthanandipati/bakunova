@@ -13,13 +13,15 @@ include 'components/header.php';
         <section class="hero-section">
             <div class="hero-overlay"></div>
             <div class="container-90 hero-inner">
-                <div class="row">
-                    <div class="col-xl-7 col-lg-9">
+                <div class="row align-items-center g-5">
+
+                    <!-- Left: Hero text -->
+                    <div class="col-lg-6">
 
                         <!-- Eyebrow -->
                         <p class="hero-eyebrow"
                            data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                            A cosmetic division of Drug Discovery Labs, USA
+                            SRDK Biochem, India
                         </p>
 
                         <!-- Heading -->
@@ -35,11 +37,11 @@ include 'components/header.php';
                             Bakunova develops premium cosmetic actives and advanced delivery technologies — giving skincare brands the formulation-ready solutions they need to create products that are more stable, more effective, and truly differentiated.
                         </p>
 
-                        <!-- CTA Buttons -->
+                        <!-- CTA Button -->
                         <div class="hero-btns"
                              data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
-                            <a href="#" class="btn-hero-primary">
-                                Explore our solutions
+                            <a href="products.php" class="btn-hero-primary">
+                                Explore
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
                                      viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"
                                      stroke-linecap="round" stroke-linejoin="round">
@@ -47,7 +49,6 @@ include 'components/header.php';
                                     <polyline points="12 5 19 12 12 19"/>
                                 </svg>
                             </a>
-                            <a href="#" class="btn-hero-outline">Request a sample</a>
                         </div>
 
                         <!-- Feature highlights -->
@@ -82,8 +83,8 @@ include 'components/header.php';
                                     </svg>
                                 </div>
                                 <div>
-                                    <p class="hero-feature-title">Stability &amp; performance</p>
-                                    <p class="hero-feature-desc">Engineered for real-world impact.</p>
+                                    <p class="hero-feature-title">Active Stability &amp; Skin Performance</p>
+                                    <p class="hero-feature-desc">Engineered for superior efficacy, stability, and visible skincare benefits.</p>
                                 </div>
                             </div>
 
@@ -99,14 +100,58 @@ include 'components/header.php';
                                     </svg>
                                 </div>
                                 <div>
-                                    <p class="hero-feature-title">Formulation partnerships</p>
-                                    <p class="hero-feature-desc">Collaborative solutions. Shared success.</p>
+                                    <p class="hero-feature-title">Formulation Technology Partnerships</p>
+                                    <p class="hero-feature-desc">Transforming cosmetic innovations into market-ready skincare solutions.</p>
                                 </div>
                             </div>
 
                         </div><!-- /hero-features -->
 
-                    </div>
+                    </div><!-- /left col -->
+
+                    <!-- Right: Expertise areas -->
+                    <div class="col-lg-6"
+                         data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
+                        <div class="hero-expertise">
+
+                            <p class="hero-expertise__intro"
+                               data-aos="fade-up" data-aos-duration="700" data-aos-delay="300">
+                                Our expertise is focused on two key areas:
+                            </p>
+
+                            <div class="hero-expertise__card"
+                                 data-aos="fade-up" data-aos-duration="700" data-aos-delay="400">
+                                <div class="hero-expertise__icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
+                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
+                                         stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                                    </svg>
+                                </div>
+                                <div class="hero-expertise__body">
+                                    <h4 class="hero-expertise__title">Premium Cosmetic Ingredients</h4>
+                                    <p class="hero-expertise__desc">We develop, manufacture, and supply high-quality cosmetic actives that empower brands to create innovative and differentiated skincare products.</p>
+                                </div>
+                            </div>
+
+                            <div class="hero-expertise__card"
+                                 data-aos="fade-up" data-aos-duration="700" data-aos-delay="520">
+                                <div class="hero-expertise__icon hero-expertise__icon--purple">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none"
+                                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
+                                         stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                                    </svg>
+                                </div>
+                                <div class="hero-expertise__body">
+                                    <h4 class="hero-expertise__title">Value-Added Active Cosmetic Ingredients <span class="hero-expertise__sub">(Pre-Formulations)</span></h4>
+                                    <p class="hero-expertise__desc">We integrate premium cosmetic actives with polymer science and advanced delivery technologies to create stable, high-performance, formulation-ready pre-formulations with enhanced functionality and skin performance.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div><!-- /right col -->
+
                 </div>
             </div>
         </section>
@@ -161,7 +206,7 @@ include 'components/header.php';
                 <div class="abk-section-header"
                      data-aos="fade-up" data-aos-duration="700">
                     <span class="section-eyebrow">Who We Are</span>
-                    <h2 class="section-heading">About Us</h2>
+                    <h2 class="section-heading">Bakunova's Integrated Cosmetic Innovation Platform</h2>
                 </div>
 
                 <!-- ── Intro Block ── -->
@@ -169,13 +214,12 @@ include 'components/header.php';
                     <div class="col-12 col-lg-8 col-xl-7">
                         <div class="abk-body-text"
                              data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                            <p>We are a specialty cosmetic ingredient company focused on developing premium active ingredients and advanced delivery technologies for next-generation skincare products. By combining ingredient expertise, formulation science, and delivery system innovation, we create formulation-ready solutions designed to enhance stability, performance, and product differentiation.</p>
-                            <p>We partner with cosmetic brands, manufacturers, and formulators to accelerate innovation and transform promising concepts into market-ready products.</p>
+                            <p>Combining ingredient science, encapsulation technologies, and intelligent delivery platforms and formulation-ready skincare solutions.</p>
                         </div>
                         <div class="mt-4"
                              data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
-                            <a href="#" class="btn btn-outline-primary rounded-pill px-4 py-2 fw-semibold abk-readmore-btn">
-                                Read More
+                            <a href="about.php" class="btn btn-outline-primary rounded-pill px-4 py-2 fw-semibold abk-readmore-btn">
+                                Explore More About us
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
                                      viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"
                                      stroke-linecap="round" stroke-linejoin="round" class="ms-2">
@@ -287,8 +331,8 @@ include 'components/header.php';
                             </svg>
                         </div>
                         <div>
-                            <p class="abk-feat-title">STABILITY &amp; PERFORMANCE</p>
-                            <p class="abk-feat-desc">Engineered for real-world impact.</p>
+                            <p class="abk-feat-title">ACTIVE STABILITY &amp; SKIN PERFORMANCE</p>
+                            <p class="abk-feat-desc">Engineered for superior efficacy, stability, and visible skincare benefits.</p>
                         </div>
                     </div>
 
@@ -306,8 +350,8 @@ include 'components/header.php';
                             </svg>
                         </div>
                         <div>
-                            <p class="abk-feat-title">CUSTOM FORMULATION PARTNERSHIPS</p>
-                            <p class="abk-feat-desc">Collaborative solutions. Shared success.</p>
+                            <p class="abk-feat-title">FORMULATION TECHNOLOGY PARTNERSHIPS</p>
+                            <p class="abk-feat-desc">Transforming cosmetic innovations into market-ready skincare solutions.</p>
                         </div>
                     </div>
 
@@ -803,9 +847,10 @@ include 'components/header.php';
                                     </div>
                                     <ul class="ps-item__list">
                                         <li><a href="products.php#formulation-ready">Formulation-ready ingredients</a></li>
-                                        <li><a href="products.php#encapsulated">Encapsulated, stabilized, and solubilized actives</a></li>
-                                        <li><a href="products.php#delivery-enhanced">Delivery-enhanced systems for improved performance</a></li>
-                                        <li><a href="products.php#skin-delivery">Superior skin delivery and formulation convenience</a></li>
+                                        <li><a href="products.php#encapsulated">Encapsulated and stabilized actives</a></li>
+                                        <li><a href="products.php#delivery-enhanced">Improved performance</a></li>
+                                        <li><a href="products.php#skin-delivery">Superior skin delivery</a></li>
+                                        <li><a href="products.php#formulation-convenience">Formulation convenience</a></li>
                                     </ul>
                                 </div>
 
