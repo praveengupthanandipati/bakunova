@@ -58,7 +58,7 @@
                             <li><a href="bakuchiol.php">Bakuchiol</a></li>
                             <li><a href="rosmarinic-acid.php">Rosmarinic Acid</a></li>
                             <li><a href="hpr.php">Hydroxypinacolone Retinoate</a></li>
-                            <li><a href="products.php#salicylic-acid">Natural Salicylic Acid</a></li>
+                            <li><a href="natural-solicylic-acid.php">Natural Salicylic Acid</a></li>
                         </ul>
                     </div>
 

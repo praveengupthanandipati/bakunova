@@ -139,7 +139,7 @@
                                                 </span>
                                             </a>
 
-                                            <a class="mn-item" href="products.php#salicylic-acid">
+                                            <a class="mn-item" href="natural-solicylic-acid.php">
                                                 <span class="mn-item__icon mn-icon--green">
                                                     <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a7 7 0 007-7c0-2-1-3.9-3-5.5S7.5 5 7.5 5L5 7.5C3.4 9.1 2 10.9 2 13a7 7 0 007 7h3z"/></svg>
                                                 </span>
