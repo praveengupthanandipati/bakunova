@@ -116,7 +116,7 @@ include 'components/header.php';
 
                 <!-- Right: Image -->
                 <div class="col-lg-6 order-1 order-lg-2"
-                     data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+                     data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
                     <div class="ra-hero__visual">
                         <img src="img/RosmarinicAcid/img01.jpg"
                              alt="Rosmarinic Acid — rosemary plant and molecular structure"
@@ -259,9 +259,11 @@ include 'components/header.php';
                 <div class="col"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">
                     <div class="ra-sol-card">
-                        <div class="ra-sol-card__num">01</div>
-                        <div class="ra-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Liposomal%20Bakuchiol.jpeg" alt="Liposomal Rosmarinic Acid" class="ra-sol-card__img">
+                        <div class="ra-sol-card__head">
+                            <div class="ra-sol-card__img-wrap">
+                                <img src="img/Bakuchiol/Liposomal%20Bakuchiol.jpeg" alt="Liposomal Rosmarinic Acid" class="ra-sol-card__img">
+                            </div>
+                            <div class="ra-sol-card__num">01</div>
                         </div>
                         <div class="ra-sol-card__body">
                             <h3 class="ra-sol-card__title">Liposomal Rosmarinic Acid</h3>
@@ -278,9 +280,11 @@ include 'components/header.php';
                 <div class="col"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="80">
                     <div class="ra-sol-card">
-                        <div class="ra-sol-card__num">02</div>
-                        <div class="ra-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Bakuchiol%20Microemulsion.jpeg" alt="Rosmarinic Acid Microemulsion" class="ra-sol-card__img">
+                        <div class="ra-sol-card__head">
+                            <div class="ra-sol-card__img-wrap">
+                                <img src="img/Bakuchiol/Bakuchiol%20Microemulsion.jpeg" alt="Rosmarinic Acid Microemulsion" class="ra-sol-card__img">
+                            </div>
+                            <div class="ra-sol-card__num">02</div>
                         </div>
                         <div class="ra-sol-card__body">
                             <h3 class="ra-sol-card__title">Rosmarinic Acid Microemulsion</h3>
@@ -297,9 +301,11 @@ include 'components/header.php';
                 <div class="col"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="160">
                     <div class="ra-sol-card">
-                        <div class="ra-sol-card__num">03</div>
-                        <div class="ra-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Bakuchiol%20Beta%20CD%20Complex.jpeg" alt="Rosmarinic Acid Beta CD Complex" class="ra-sol-card__img">
+                        <div class="ra-sol-card__head">
+                            <div class="ra-sol-card__img-wrap">
+                                <img src="img/Bakuchiol/Bakuchiol%20Beta%20CD%20Complex.jpeg" alt="Rosmarinic Acid Beta CD Complex" class="ra-sol-card__img">
+                            </div>
+                            <div class="ra-sol-card__num">03</div>
                         </div>
                         <div class="ra-sol-card__body">
                             <h3 class="ra-sol-card__title">Rosmarinic Acid Beta CD Complex</h3>
@@ -316,9 +322,11 @@ include 'components/header.php';
                 <div class="col"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="240">
                     <div class="ra-sol-card">
-                        <div class="ra-sol-card__num">04</div>
-                        <div class="ra-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Solid%20lipped%20nanoparticle.jpeg" alt="Rosmarinic Acid Solid Lipid Nanoparticles" class="ra-sol-card__img">
+                        <div class="ra-sol-card__head">
+                            <div class="ra-sol-card__img-wrap">
+                                <img src="img/Bakuchiol/Solid%20lipped%20nanoparticle.jpeg" alt="Rosmarinic Acid Solid Lipid Nanoparticles" class="ra-sol-card__img">
+                            </div>
+                            <div class="ra-sol-card__num">04</div>
                         </div>
                         <div class="ra-sol-card__body">
                             <h3 class="ra-sol-card__title">Rosmarinic Acid Solid Lipid Nanoparticles</h3>
@@ -335,9 +343,11 @@ include 'components/header.php';
                 <div class="col"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="320">
                     <div class="ra-sol-card">
-                        <div class="ra-sol-card__num">05</div>
-                        <div class="ra-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Bakuchiol%20Ionic%20Liquid.jpeg" alt="Rosmarinic Acid Ionic Liquid (CAGE)" class="ra-sol-card__img">
+                        <div class="ra-sol-card__head">
+                            <div class="ra-sol-card__img-wrap">
+                                <img src="img/Bakuchiol/Bakuchiol%20Ionic%20Liquid.jpeg" alt="Rosmarinic Acid Ionic Liquid (CAGE)" class="ra-sol-card__img">
+                            </div>
+                            <div class="ra-sol-card__num">05</div>
                         </div>
                         <div class="ra-sol-card__body">
                             <h3 class="ra-sol-card__title">Rosmarinic Acid Ionic Liquid (CAGE)</h3>

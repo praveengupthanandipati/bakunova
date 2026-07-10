@@ -60,7 +60,7 @@ include 'components/header.php';
 
                 <!-- Right: Status badges -->
                 <div class="col-lg-5 order-1 order-lg-2 align-self-center"
-                     data-aos="fade-left" data-aos-duration="800" data-aos-delay="150">
+                     data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
                     <div class="pl-status-badges">
 
                         <div class="pl-status-badge pl-status-badge--purple">
@@ -228,7 +228,7 @@ include 'components/header.php';
 
                 <!-- Platform description -->
                 <div class="col-lg-7"
-                     data-aos="fade-right" data-aos-duration="700">
+                     data-aos="fade-up" data-aos-duration="700">
                     <div class="pl-platform-desc">
                         <div class="pl-platform-icon" aria-hidden="true">
                             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none"
@@ -243,7 +243,7 @@ include 'components/header.php';
 
                 <!-- Three pillars -->
                 <div class="col-lg-5"
-                     data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+                     data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
                     <div class="pl-pillars">
 
                         <div class="pl-pillar">

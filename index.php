@@ -111,7 +111,7 @@ include 'components/header.php';
 
                     <!-- Right: Expertise areas -->
                     <div class="col-lg-6"
-                         data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
+                         data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
                         <div class="hero-expertise">
 
                             <p class="hero-expertise__intro"
@@ -779,7 +779,7 @@ include 'components/header.php';
 
                     <!-- ══ PRODUCTS card ══ -->
                     <div class="col-lg-4"
-                         data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
+                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                         <div class="ps-card ps-card--products">
 
                             <div class="ps-card__header">
@@ -868,7 +868,7 @@ include 'components/header.php';
                             </div>
 
                             <!-- SVG visual — molecular serum -->
-                            <div class="ps-center__visual">
+                            <div class="ps-center__visual d-none">
                                 <svg viewBox="0 0 260 240" xmlns="http://www.w3.org/2000/svg"
                                      style="width:100%;max-width:260px" aria-hidden="true">
                                     <defs>
@@ -997,7 +997,7 @@ include 'components/header.php';
 
                     <!-- ══ SERVICES card ══ -->
                     <div class="col-lg-4"
-                         data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">
+                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                         <div class="ps-card ps-card--services">
 
                             <div class="ps-card__header">

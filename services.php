@@ -59,8 +59,8 @@ include 'components/header.php';
             <div class="sv-service" id="formulation-strategy">
                 <div class="row g-4 g-xl-5 align-items-center">
 
-                    <div class="col-lg-6 order-2 order-lg-1"
-                         data-aos="fade-right" data-aos-duration="700">
+                    <div class="col-lg-7 order-2 order-lg-1"
+                         data-aos="fade-up" data-aos-duration="700">
                         <div class="sv-service__content">
                             <div class="sv-service__icon sv-icon--blue">
                                 <svg width="28" height="28" fill="none" viewBox="0 0 24 24"
@@ -81,8 +81,8 @@ include 'components/header.php';
                         </div>
                     </div>
 
-                    <div class="col-lg-6 order-1 order-lg-2"
-                         data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+                    <div class="col-lg-5 order-1 order-lg-2"
+                         data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
                         <div class="sv-service__img-wrap">
                             <img src="img/services/OptimizeddeliveryStrategy.jpg"
                                  alt="Technology Selection and Optimized Delivery Strategy"
@@ -99,8 +99,8 @@ include 'components/header.php';
             <div class="sv-service" id="preformulation">
                 <div class="row g-4 g-xl-5 align-items-center">
 
-                    <div class="col-lg-6"
-                         data-aos="fade-right" data-aos-duration="700" data-aos-delay="100">
+                    <div class="col-lg-5"
+                         data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
                         <div class="sv-service__img-wrap">
                             <img src="img/services/stable-dispersible-performance-ready-pre-formulation.jpg"
                                  alt="Ingredient to Pre-Formulation — Stable Dispersible Performance Ready"
@@ -108,8 +108,8 @@ include 'components/header.php';
                         </div>
                     </div>
 
-                    <div class="col-lg-6"
-                         data-aos="fade-left" data-aos-duration="700">
+                    <div class="col-lg-7"
+                         data-aos="fade-up" data-aos-duration="700">
                         <div class="sv-service__content">
                             <div class="sv-service__icon sv-icon--purple">
                                 <svg width="28" height="28" fill="none" viewBox="0 0 24 24"
@@ -139,8 +139,8 @@ include 'components/header.php';
             <div class="sv-service" id="delivery-design">
                 <div class="row g-4 g-xl-5 align-items-center">
 
-                    <div class="col-lg-6 order-2 order-lg-1"
-                         data-aos="fade-right" data-aos-duration="700">
+                    <div class="col-lg-7 order-2 order-lg-1"
+                         data-aos="fade-up" data-aos-duration="700">
                         <div class="sv-service__content">
                             <div class="sv-service__icon sv-icon--teal">
                                 <svg width="28" height="28" fill="none" viewBox="0 0 24 24"
@@ -165,8 +165,8 @@ include 'components/header.php';
                         </div>
                     </div>
 
-                    <div class="col-lg-6 order-1 order-lg-2"
-                         data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+                    <div class="col-lg-5 order-1 order-lg-2"
+                         data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
                         <div class="sv-service__img-wrap">
                             <img src="img/services/enhancedfunctional-performance.jpg"
                                  alt="Customized Delivery System Design — Enhanced Functional Performance"
@@ -183,8 +183,8 @@ include 'components/header.php';
             <div class="sv-service" id="value-addition">
                 <div class="row g-4 g-xl-5 align-items-center">
 
-                    <div class="col-lg-6"
-                         data-aos="fade-right" data-aos-duration="700" data-aos-delay="100">
+                    <div class="col-lg-5"
+                         data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
                         <div class="sv-service__img-wrap">
                             <img src="img/services/differentiated-high-performance-skincare-products.jpg"
                                  alt="Value Addition in Finished Formulations — Differentiated High-Performance Skincare"
@@ -192,8 +192,8 @@ include 'components/header.php';
                         </div>
                     </div>
 
-                    <div class="col-lg-6"
-                         data-aos="fade-left" data-aos-duration="700">
+                    <div class="col-lg-7"
+                         data-aos="fade-up" data-aos-duration="700">
                         <div class="sv-service__content">
                             <div class="sv-service__icon sv-icon--pink">
                                 <svg width="28" height="28" fill="none" viewBox="0 0 24 24"

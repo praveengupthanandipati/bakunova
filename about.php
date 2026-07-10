@@ -116,7 +116,7 @@ include 'components/header.php';
                     </div>
 
                     <!-- Right: Visual -->
-                    <div class="col-lg-6" data-aos="fade-left" data-aos-duration="900" data-aos-delay="150">
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-duration="900" data-aos-delay="150">
                         <div class="abt-overview__visual">
                             <img src="img/hero01.jpg" alt="Bakunova Research" class="abt-overview__img-main">
                             <div class="abt-overview__badge">
@@ -146,7 +146,7 @@ include 'components/header.php';
                 <div class="row g-4">
 
                     <div class="col-md-6"
-                         data-aos="fade-right" data-aos-duration="800" data-aos-delay="100">
+                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                         <div class="abt-mv-card abt-mv-card--mission">
                             <div class="abt-mv-card__deco"></div>
                             <div class="abt-mv-card__deco2"></div>
@@ -166,7 +166,7 @@ include 'components/header.php';
                     </div>
 
                     <div class="col-md-6"
-                         data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                         <div class="abt-mv-card abt-mv-card--vision">
                             <div class="abt-mv-card__deco"></div>
                             <div class="abt-mv-card__deco2"></div>
@@ -505,7 +505,7 @@ include 'components/header.php';
 
                                 <!-- Icon steps column -->
                                 <div class="col-auto me-4"
-                                     data-aos="fade-right" data-aos-duration="700" data-aos-delay="100">
+                                     data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
                                     <div class="ld-steps-col">
                                         <div class="ld-step">
                                             <div class="ld-step-icon">
@@ -546,7 +546,7 @@ include 'components/header.php';
                                 <!-- Text column -->
                                 <div class="col">
                                     <div data-aos="fade-up" data-aos-duration="700" data-aos-delay="80">
-                                        <h2 class="ld-title">Leadership</h2>
+                                        <h2 class="ld-title">Advisor</h2>
                                         <span class="ld-title-bar"></span>
                                     </div>
                                     <div class="ld-bio"
@@ -562,7 +562,7 @@ include 'components/header.php';
 
                     <!-- Right: Photo -->
                     <div class="col-lg-5"
-                         data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
+                         data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">
                         <div class="ld-photo-col">
                             <div class="ld-photo-frame">
                                 <img src="img/leader.jpg" alt="Bakunova Leadership">

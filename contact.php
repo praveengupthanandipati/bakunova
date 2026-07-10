@@ -36,7 +36,7 @@ include 'components/header.php';
             <div class="row g-4 g-lg-5 align-items-start">
 
                 <!-- ── Left: Contact Info ── -->
-                <div class="col-lg-5" data-aos="fade-right" data-aos-duration="700">
+                <div class="col-lg-5" data-aos="fade-up" data-aos-duration="700">
 
                     <h2 class="ct-info__heading">Contact Us</h2>
                     <p class="ct-info__sub">Bakunova: Part of <strong>SRDK Biochem</strong>, India</p>
@@ -149,7 +149,7 @@ include 'components/header.php';
                 </div>
 
                 <!-- ── Right: Contact Form ── -->
-                <div class="col-lg-7" data-aos="fade-left" data-aos-duration="700" data-aos-delay="100">
+                <div class="col-lg-7" data-aos="fade-up" data-aos-duration="700" data-aos-delay="100">
 
                     <div class="ct-form-card">
                         <div class="ct-form-card__header">

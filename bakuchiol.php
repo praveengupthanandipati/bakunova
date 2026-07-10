@@ -103,7 +103,7 @@ include 'components/header.php';
 
                 <!-- Right: Image -->
                 <div class="col-lg-6 order-1 order-lg-2"
-                     data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+                     data-aos="fade-up" data-aos-duration="900" data-aos-delay="100">
                     <div class="bak-hero__visual">
                         <img src="img/Bakuchiol/img01.jpg"
                              alt="Bakuchiol plant and chemical structure"
@@ -233,9 +233,11 @@ include 'components/header.php';
                 <div class="col"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="0">
                     <div class="bak-sol-card">
-                        <div class="bak-sol-card__num">01</div>
-                        <div class="bak-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Liposomal%20Bakuchiol.jpeg" alt="Liposomal Bakuchiol" class="bak-sol-card__img">
+                        <div class="bak-sol-card__head">
+                            <div class="bak-sol-card__img-wrap">
+                                <img src="img/Bakuchiol/Liposomal%20Bakuchiol.jpeg" alt="Liposomal Bakuchiol" class="bak-sol-card__img">
+                            </div>
+                            <div class="bak-sol-card__num">01</div>
                         </div>
                         <div class="bak-sol-card__body">
                             <h3 class="bak-sol-card__title">Liposomal Bakuchiol</h3>
@@ -252,9 +254,11 @@ include 'components/header.php';
                 <div class="col"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="80">
                     <div class="bak-sol-card">
-                        <div class="bak-sol-card__num">02</div>
-                        <div class="bak-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Bakuchiol%20Microemulsion.jpeg" alt="Bakuchiol Microemulsion" class="bak-sol-card__img">
+                        <div class="bak-sol-card__head">
+                            <div class="bak-sol-card__img-wrap">
+                                <img src="img/Bakuchiol/Bakuchiol%20Microemulsion.jpeg" alt="Bakuchiol Microemulsion" class="bak-sol-card__img">
+                            </div>
+                            <div class="bak-sol-card__num">02</div>
                         </div>
                         <div class="bak-sol-card__body">
                             <h3 class="bak-sol-card__title">Bakuchiol Microemulsion</h3>
@@ -271,9 +275,11 @@ include 'components/header.php';
                 <div class="col"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="160">
                     <div class="bak-sol-card">
-                        <div class="bak-sol-card__num">03</div>
-                        <div class="bak-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Bakuchiol%20Beta%20CD%20Complex.jpeg" alt="Bakuchiol Beta CD Complex" class="bak-sol-card__img">
+                        <div class="bak-sol-card__head">
+                            <div class="bak-sol-card__img-wrap">
+                                <img src="img/Bakuchiol/Bakuchiol%20Beta%20CD%20Complex.jpeg" alt="Bakuchiol Beta CD Complex" class="bak-sol-card__img">
+                            </div>
+                            <div class="bak-sol-card__num">03</div>
                         </div>
                         <div class="bak-sol-card__body">
                             <h3 class="bak-sol-card__title">Bakuchiol Beta CD Complex</h3>
@@ -290,9 +296,11 @@ include 'components/header.php';
                <div class="col"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="240">
                     <div class="bak-sol-card">
-                        <div class="bak-sol-card__num">04</div>
-                        <div class="bak-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Solid%20lipped%20nanoparticle.jpeg" alt="Bakuchiol Solid Lipid Nanoparticles" class="bak-sol-card__img">
+                        <div class="bak-sol-card__head">
+                            <div class="bak-sol-card__img-wrap">
+                                <img src="img/Bakuchiol/Solid%20lipped%20nanoparticle.jpeg" alt="Bakuchiol Solid Lipid Nanoparticles" class="bak-sol-card__img">
+                            </div>
+                            <div class="bak-sol-card__num">04</div>
                         </div>
                         <div class="bak-sol-card__body">
                             <h3 class="bak-sol-card__title">Bakuchiol Solid Lipid Nanoparticles</h3>
@@ -309,9 +317,11 @@ include 'components/header.php';
                 <div class="col"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="320">
                     <div class="bak-sol-card">
-                        <div class="bak-sol-card__num">05</div>
-                        <div class="bak-sol-card__img-wrap">
-                            <img src="img/Bakuchiol/Bakuchiol%20Ionic%20Liquid.jpeg" alt="Bakuchiol Ionic Liquid (CAGE)" class="bak-sol-card__img">
+                        <div class="bak-sol-card__head">
+                            <div class="bak-sol-card__img-wrap">
+                                <img src="img/Bakuchiol/Bakuchiol%20Ionic%20Liquid.jpeg" alt="Bakuchiol Ionic Liquid (CAGE)" class="bak-sol-card__img">
+                            </div>
+                            <div class="bak-sol-card__num">05</div>
                         </div>
                         <div class="bak-sol-card__body">
                             <h3 class="bak-sol-card__title">Bakuchiol Ionic Liquid (CAGE)</h3>

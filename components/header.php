@@ -158,7 +158,7 @@
                                         <p class="mn-group__label">Value-Added Pre-Formulations</p>
                                         <div class="mn-grid mn-grid--1col">
 
-                                            <a class="mn-item" href="products.php#formulation-ready">
+                                            <div class="mn-item mn-item--static">
                                                 <span class="mn-item__icon mn-icon--orange">
                                                     <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
                                                 </span>
@@ -166,9 +166,9 @@
                                                     <strong class="mn-item__title">Formulation-Ready Ingredients</strong>
                                                     <span class="mn-item__desc">Pre-processed actives optimised for direct incorporation — no additional reformulation effort required on your end.</span>
                                                 </span>
-                                            </a>
+                                            </div>
 
-                                            <a class="mn-item" href="products.php#encapsulated">
+                                            <div class="mn-item mn-item--static">
                                                 <span class="mn-item__icon mn-icon--orange">
                                                     <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
                                                 </span>
@@ -176,9 +176,9 @@
                                                     <strong class="mn-item__title">Encapsulated, Stabilized &amp; Solubilized Actives</strong>
                                                     <span class="mn-item__desc">Protected ingredients in advanced carriers ensuring stability and potency throughout the full product shelf life.</span>
                                                 </span>
-                                            </a>
+                                            </div>
 
-                                            <a class="mn-item" href="products.php#delivery-enhanced">
+                                            <div class="mn-item mn-item--static">
                                                 <span class="mn-item__icon mn-icon--orange">
                                                     <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                                                 </span>
@@ -186,9 +186,9 @@
                                                     <strong class="mn-item__title">Delivery-Enhanced Systems for Improved Performance</strong>
                                                     <span class="mn-item__desc">Actives combined with delivery technologies to maximise skin uptake, bioavailability, and consumer-perceived results.</span>
                                                 </span>
-                                            </a>
+                                            </div>
 
-                                            <a class="mn-item" href="products.php#skin-delivery">
+                                            <div class="mn-item mn-item--static">
                                                 <span class="mn-item__icon mn-icon--orange">
                                                     <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                                                 </span>
@@ -196,7 +196,7 @@
                                                     <strong class="mn-item__title">Superior Skin Delivery &amp; Formulation Convenience</strong>
                                                     <span class="mn-item__desc">Plug-and-play systems engineered for maximum formulation convenience, enhanced bioavailability, and skin compatibility.</span>
                                                 </span>
-                                            </a>
+                                            </div>
 
                                         </div>
                                     </div>
@@ -250,88 +250,79 @@
         <!-- =============================================
              MOBILE OFFCANVAS MENU
              ============================================= -->
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="mobileMenuOffcanvas"
+        <div class="offcanvas offcanvas-end mob-offcanvas" tabindex="-1" id="mobileMenuOffcanvas"
              aria-labelledby="mobileMenuLabel">
 
-            <div class="offcanvas-header border-bottom py-3 px-4">
-                <a href="index.php">
-                    <img src="img/bakunova-logo.png" alt="Bakunova" height="42">
+            <!-- Header -->
+            <div class="mob-offcanvas__header">
+                <a href="index.php" class="mob-offcanvas__logo">
+                    <img src="img/bakunova-logo.png" alt="Bakunova" height="40">
                 </a>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <button type="button" class="mob-offcanvas__close" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none"
+                         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"
+                         stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
             </div>
 
-            <div class="offcanvas-body px-3 pt-2">
+            <!-- Body -->
+            <div class="mob-offcanvas__body">
 
-                <div class="accordion accordion-flush" id="mobileNavAccordion">
+                <!-- Plain links block 1 -->
+                <div class="mob-nav-block">
+                    <a href="index.php" class="mob-nav-row">Home</a>
+                    <a href="about.php" class="mob-nav-row">About Us</a>
+                    <a href="services.php" class="mob-nav-row">Services</a>
+                </div>
 
-                    <!-- Home -->
-                    <div class="mobile-nav-link-item">
-                        <a href="index.php" class="nav-link fw-semibold py-3 px-2">Home</a>
-                    </div>
-
-                    <!-- About Us -->
-                    <div class="mobile-nav-link-item">
-                        <a href="about.php" class="nav-link fw-semibold py-3 px-2">About Us</a>
-                    </div>
-
-                    <!-- Services -->
-                    <div class="mobile-nav-link-item">
-                        <a href="services.php" class="nav-link fw-semibold py-3 px-2">Services</a>
-                    </div>
-
-                    <!-- Products -->
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#mobileProducts"
-                                    aria-expanded="false">
+                <!-- Products accordion block -->
+                <div class="mob-nav-block mob-nav-block--accordion" id="mobAccordion">
+                    <div class="accordion-item" style="border:none;background:transparent;">
+                        <h2 class="accordion-header m-0">
+                            <button class="mob-accordion-btn accordion-button collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#mobProducts"
+                                    aria-expanded="false" aria-controls="mobProducts">
                                 Products
+                                <svg class="mob-chevron" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"
+                                     stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="6 9 12 15 18 9"/>
+                                </svg>
                             </button>
                         </h2>
-                        <div id="mobileProducts" class="accordion-collapse collapse"
-                             data-bs-parent="#mobileNavAccordion">
-                            <div class="accordion-body pt-0 pb-2">
-                                <p class="mobile-mega-label">Premium Native Ingredients</p>
-                                <nav class="nav flex-column gap-1 mb-2">
-                                    <a class="nav-link" href="products.php#bakuchiol">Bakuchiol</a>
-                                    <a class="nav-link" href="rosmarinic-acid.php">Rosmarinic Acid</a>
-                                    <a class="nav-link" href="hpr.php">Hydroxypinacolone Retinoate (HPR)</a>
-                                    <a class="nav-link" href="products.php#salicylic-acid">Natural Salicylic Acid</a>
-                                </nav>
-                                <p class="mobile-mega-label">Value-Added Pre-Formulations</p>
-                                <nav class="nav flex-column gap-1">
-                                    <a class="nav-link" href="products.php#formulation-ready">Formulation-ready ingredients</a>
-                                    <a class="nav-link" href="products.php#encapsulated">Encapsulated, stabilized, and solubilized actives</a>
-                                    <a class="nav-link" href="products.php#delivery-enhanced">Delivery-enhanced systems for improved performance</a>
-                                    <a class="nav-link" href="products.php#skin-delivery">Designed for superior skin delivery and formulation convenience</a>
-                                </nav>
+                        <div id="mobProducts" class="accordion-collapse collapse">
+                            <div class="mob-accordion-body">
+                                <p class="mob-sub-label">Premium Native Ingredients</p>
+                                <a class="mob-sub-link" href="bakuchiol.php">Bakuchiol</a>
+                                <a class="mob-sub-link" href="rosmarinic-acid.php">Rosmarinic Acid</a>
+                                <a class="mob-sub-link" href="hpr.php">Hydroxypinacolone Retinoate (HPR)</a>
+                                <a class="mob-sub-link" href="products.php#salicylic-acid">Natural Salicylic Acid</a>
+                                <p class="mob-sub-label mt-3">Value-Added Pre-Formulations</p>
+                                <span class="mob-sub-link mob-sub-link--static">Formulation-ready ingredients</span>
+                                <span class="mob-sub-link mob-sub-link--static">Encapsulated, stabilized &amp; solubilized actives</span>
+                                <span class="mob-sub-link mob-sub-link--static">Delivery-enhanced systems for improved performance</span>
+                                <span class="mob-sub-link mob-sub-link--static">Superior skin delivery &amp; formulation convenience</span>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Quality -->
-                    <div class="mobile-nav-link-item">
-                        <a href="pipeline.php" class="nav-link fw-semibold py-3 px-2">Pipeline</a>
-                    </div>
-
-                    <!-- FAQ -->
-                    <div class="mobile-nav-link-item">
-                        <a href="faq.php" class="nav-link fw-semibold py-3 px-2">FAQ's</a>
-                    </div>
-
-                    <!-- Contact -->
-                    <div class="mobile-nav-link-item">
-                        <a href="contact.php" class="nav-link fw-semibold py-3 px-2">Contact</a>
-                    </div>
-
-                </div><!-- /accordion -->
-
-                <!-- CTA -->
-                <div class="pt-4 pb-2">
-                    <a href="contact.php" class="btn btn-primary w-100 rounded-pill fw-semibold">Contact Us</a>
                 </div>
 
-            </div><!-- /offcanvas-body -->
+                <!-- Plain links block 2 -->
+                <div class="mob-nav-block">
+                    <a href="pipeline.php" class="mob-nav-row">Pipeline</a>
+                    <a href="faq.php" class="mob-nav-row">FAQ's</a>
+                    <a href="contact.php" class="mob-nav-row mob-nav-row--last">Contact</a>
+                </div>
+
+                <!-- CTA -->
+                <div class="mob-offcanvas__cta">
+                    <a href="contact.php" class="btn btn-primary w-100 rounded-pill fw-semibold py-3">Contact Us</a>
+                </div>
+
+            </div><!-- /body -->
         </div><!-- /offcanvas -->
 
     </header>

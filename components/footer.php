@@ -5,54 +5,14 @@
             <div class="container-90">
                 <div class="row g-4 g-lg-5">
 
-                    <!-- Col 1: Brand + About + Contact -->
-                    <div class="col-12 col-lg-4">
+                    <!-- Col 1: Brand + About + Social -->
+                    <div class="col-12 col-lg-3">
                         <div class="footer-logo mb-3">
-                            <img src="img/bakunova-logo-white.png" alt="Bakunova" height="44">
+                            <img src="img/bakunova-logo.png" alt="Bakunova" height="44">
                         </div>
-                        <p class="footer-intro">
+                        <p class="footer-intro d-none d-lg-block">
                             Bakunova develops and manufactures premium cosmetic actives and advanced delivery technology solutions. By joining hands with Drug Discovery Labs, USA as its marketing partner, Bakunova delivers innovative, high-performance, formulation-ready solutions to skincare brands worldwide.
                         </p>
-
-                        <!-- Contact items -->
-                        <div class="footer-contact-item">
-                            <div class="footer-contact-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
-                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                     stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
-                                    <circle cx="12" cy="10" r="3"/>
-                                </svg>
-                            </div>
-                            <span class="footer-link">F26, FLO-TSIIC Industrial Park, Medical Devices Park, Ameenpur, Hyderabad, Telangana - 502319</span>
-                        </div>
-
-                        <div class="footer-contact-item">
-                            <div class="footer-contact-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
-                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                     stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                                    <polyline points="22,6 12,13 2,6"/>
-                                </svg>
-                            </div>
-                            <a href="mailto:info@bakunova.com" class="footer-link">info@bakunova.com</a>
-                        </div>
-
-                        <div class="footer-contact-item">
-                            <div class="footer-contact-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
-                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
-                                     stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0
-                                    01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361
-                                    1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0
-                                    012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
-                                </svg>
-                            </div>
-                            <a href="tel:+917661898368" class="footer-link">+91 7661898368</a>
-                        </div>
-
                         <!-- Social Icons -->
                         <div class="footer-socials mt-3">
                             <a href="#" class="footer-social-btn" aria-label="LinkedIn">
@@ -78,46 +38,74 @@
                         </div>
                     </div>
 
-                    <!-- Col 2: Company Links -->
-                    <div class="col-4 col-sm-4 col-lg-2">
-                        <h4 class="footer-heading">Company</h4>
+                    <!-- Col 2: Quick Links (mirrors header nav) -->
+                    <div class="col-6 col-sm-4 col-lg-3">
+                        <h4 class="footer-heading">Quick Links</h4>
                         <ul class="footer-links-list">
+                            <li><a href="index.php">Home</a></li>
                             <li><a href="about.php">About Us</a></li>
-                            <li><a href="about.php#leadership">Leadership</a></li>
-                            <li><a href="#">Quality</a></li>
-                            <li><a href="#">Careers</a></li>
-                            <li><a href="#">News &amp; Blog</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="services.php">Services</a></li>
+                            <li><a href="pipeline.php">Pipeline</a></li>
+                            <li><a href="faq.php">FAQ's</a></li>
+                            <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>
 
-                    <!-- Col 3: Services Links -->
-                    <div class="col-4 col-sm-4 col-lg-2">
-                        <h4 class="footer-heading">Services</h4>
-                        <ul class="footer-links-list">
-                            <li><a href="#">Technologies</a></li>
-                            <li><a href="#">Skin Care Ingredients</a></li>
-                            <li><a href="#">Skin Care Solutions</a></li>
-                            <li><a href="#">Development Pipeline</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Col 4: Products -->
-                    <div class="col-4 col-sm-4 col-lg-2">
+                    <!-- Col 3: Premium Native Ingredients -->
+                    <div class="col-6 col-sm-4 col-lg-3">
                         <h4 class="footer-heading">Products</h4>
                         <ul class="footer-links-list">
                             <li><a href="bakuchiol.php">Bakuchiol</a></li>
-                            <li><a href="#">Hydroxypinacolone Retinoate</a></li>
                             <li><a href="rosmarinic-acid.php">Rosmarinic Acid</a></li>
-                            <li><a href="products.php">View All</a></li>
+                            <li><a href="hpr.php">Hydroxypinacolone Retinoate</a></li>
+                            <li><a href="products.php#salicylic-acid">Natural Salicylic Acid</a></li>
                         </ul>
                     </div>
 
-                    <!-- Col 5: Drug Discovery Labs USA -->
-                    <div class="col-12 col-sm-4 col-lg-2">
-                        <h4 class="footer-heading">Drug Discovery Labs</h4>
-                        <p class="footer-ddl-label">Marketing Partner, USA</p>
+                    <!-- Col 4: All Contact Details -->
+                    <div class="col-12 col-lg-3">
+                        <h4 class="footer-heading">Contact Us</h4>
 
+                        <!-- Bakunova India -->
+                        <p class="footer-ddl-label">Bakunova — India</p>
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                     stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <span class="footer-link">F26, FLO-TSIIC Industrial Park, Medical Devices Park, Ameenpur, Hyderabad, Telangana - 502319</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                     stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <a href="mailto:info@bakunova.com" class="footer-link">info@bakunova.com</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <div class="footer-contact-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                     stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0
+                                    01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361
+                                    1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0
+                                    012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+                                </svg>
+                            </div>
+                            <a href="tel:+917661898368" class="footer-link">+91 7661898368</a>
+                        </div>
+
+                        <!-- Drug Discovery Labs USA -->
+                        <p class="footer-ddl-label mt-3">Drug Discovery Labs — USA</p>
                         <div class="footer-contact-item">
                             <div class="footer-contact-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
@@ -129,7 +117,6 @@
                             </div>
                             <span class="footer-link">1793 NW Maynard Rd., Cary, NC 27513</span>
                         </div>
-
                         <div class="footer-contact-item">
                             <div class="footer-contact-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
@@ -141,7 +128,6 @@
                             </div>
                             <a href="mailto:bpandi@drugdiscoverylabs.com" class="footer-link">bpandi@drugdiscoverylabs.com</a>
                         </div>
-
                         <div class="footer-contact-item">
                             <div class="footer-contact-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none"
