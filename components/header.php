@@ -299,7 +299,7 @@
                                 <a class="mob-sub-link" href="bakuchiol.php">Bakuchiol</a>
                                 <a class="mob-sub-link" href="rosmarinic-acid.php">Rosmarinic Acid</a>
                                 <a class="mob-sub-link" href="hpr.php">Hydroxypinacolone Retinoate (HPR)</a>
-                                <a class="mob-sub-link" href="products.php#salicylic-acid">Natural Salicylic Acid</a>
+                                <a class="mob-sub-link" href="natural-solicylic-acid.php">Natural Salicylic Acid</a>
                                 <p class="mob-sub-label mt-3">Value-Added Pre-Formulations</p>
                                 <span class="mob-sub-link mob-sub-link--static">Formulation-ready ingredients</span>
                                 <span class="mob-sub-link mob-sub-link--static">Encapsulated, stabilized &amp; solubilized actives</span>
