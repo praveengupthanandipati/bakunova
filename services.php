@@ -17,11 +17,6 @@ include 'components/header.php';
             <span class="sv-blob sv-blob--2"></span>
         </div>
         <div class="container-90">
-            <nav class="sv-breadcrumb" data-aos="fade-up" data-aos-duration="600" aria-label="breadcrumb">
-                <a href="index.php">Home</a>
-                <span>›</span>
-                <span>Services</span>
-            </nav>
             <div class="sv-hero__inner">
                 <div class="sv-hero__eyebrow"
                      data-aos="fade-up" data-aos-duration="700" data-aos-delay="80">

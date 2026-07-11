@@ -36,7 +36,7 @@ include 'components/header.php';
 
             <div class="container-90 page-banner__inner">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 pt-4">
 
                         <p class="page-banner__eyebrow"
                            data-aos="fade-up" data-aos-duration="700" data-aos-delay="50">
@@ -54,19 +54,6 @@ include 'components/header.php';
                             We develop premium cosmetic actives and advanced delivery technologies — empowering skincare brands with formulation-ready solutions that are more stable, more effective, and truly differentiated.
                         </p>
 
-                        <nav class="page-banner__breadcrumb"
-                             data-aos="fade-up" data-aos-duration="600" data-aos-delay="380"
-                             aria-label="breadcrumb">
-                            <a href="index.php">Home</a>
-                            <span class="page-banner__breadcrumb-sep">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="none"
-                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"
-                                     stroke-linecap="round" stroke-linejoin="round">
-                                    <polyline points="9 18 15 12 9 6"></polyline>
-                                </svg>
-                            </span>
-                            <span>About Us</span>
-                        </nav>
 
                     </div>
                 </div>
@@ -701,10 +688,7 @@ include 'components/header.php';
                             <line x1="5" y1="12" x2="19" y2="12"/>
                             <polyline points="12 5 19 12 12 19"/>
                         </svg>
-                    </a>
-                    <a href="index.php" class="btn-cta-outline-white">
-                        Explore Our Technologies
-                    </a>
+                    </a>                   
                 </div>
 
             </div><!-- /container -->

@@ -2027,7 +2027,17 @@ header {
     gap: 1.25rem;
 }
 
-/* Tooth icon — pulse + float */
+/* Icon + ring wrapper — sized to the ring so both stay centered */
+.preloader__icon-wrap {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Molecule icon — floats up/down */
 .preloader__icon {
     position: relative;
     z-index: 2;
@@ -2037,18 +2047,13 @@ header {
 
 @keyframes preloaderFloat {
     0%, 100% { transform: translateY(0);    }
-    50%       { transform: translateY(-10px); }
+    50%       { transform: translateY(-8px); }
 }
 
-/* Spinning ring around icon */
+/* Spinning ring — fills the wrapper exactly */
 .preloader__ring {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 96px;
-    height: 96px;
-    margin-top: -68px; /* center on icon */
-    margin-left: -48px;
+    inset: 0;
     border-radius: 50%;
     border: 2.5px solid transparent;
     border-top-color: var(--bs-primary);
@@ -10263,6 +10268,78 @@ html, body { overflow-x: hidden; }
     border: 1px solid rgba(34,197,94,0.3);
     color: #15803d;
 }
+.ct-alert--error {
+    background: rgba(239,68,68,0.08);
+    border: 1px solid rgba(239,68,68,0.28);
+    color: #b91c1c;
+}
+
+/* ── Success Panel ── */
+.ct-success-panel {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 56px 32px 48px;
+    min-height: 340px;
+}
+.ct-success-panel--show { display: flex; }
+
+.ct-success-panel__icon {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background: rgba(34,197,94,0.12);
+    border: 2px solid rgba(34,197,94,0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #16a34a;
+    margin-bottom: 24px;
+    animation: successPop 0.45s cubic-bezier(0.34,1.56,0.64,1) both;
+}
+@keyframes successPop {
+    from { transform: scale(0.5); opacity: 0; }
+    to   { transform: scale(1);   opacity: 1; }
+}
+
+.ct-success-panel__title {
+    font-size: 1.55rem;
+    font-weight: 700;
+    color: var(--bs-secondary);
+    margin: 0 0 12px;
+}
+.ct-success-panel__msg {
+    font-size: 0.95rem;
+    color: #64748b;
+    line-height: 1.65;
+    max-width: 380px;
+    margin: 0 0 32px;
+}
+.ct-success-panel__msg strong { color: var(--bs-secondary); }
+
+.ct-done-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 13px 36px;
+    background: var(--bs-primary);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.22s ease, transform 0.18s ease, box-shadow 0.22s ease;
+    box-shadow: 0 4px 18px rgba(8,138,199,0.30);
+}
+.ct-done-btn:hover {
+    background: #0673a8;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(8,138,199,0.38);
+}
+.ct-done-btn:active { transform: translateY(0); }
 
 /* Form footer */
 .ct-form__footer {

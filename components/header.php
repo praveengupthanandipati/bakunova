@@ -20,29 +20,30 @@
     <div class="preloader" id="pagePreloader" aria-hidden="true">
         <div class="preloader__inner">
 
-            <!-- Molecule / science icon -->
-            <div class="preloader__icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none"
-                     viewBox="0 0 24 24" stroke="var(--bs-primary)" stroke-width="1.4"
-                     stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="12" cy="5"  r="2" fill="rgba(8,138,199,0.25)"/>
-                    <circle cx="19" cy="9"  r="2" fill="rgba(8,138,199,0.25)"/>
-                    <circle cx="19" cy="15" r="2" fill="rgba(8,138,199,0.25)"/>
-                    <circle cx="12" cy="19" r="2" fill="rgba(8,138,199,0.25)"/>
-                    <circle cx="5"  cy="15" r="2" fill="rgba(8,138,199,0.25)"/>
-                    <circle cx="5"  cy="9"  r="2" fill="rgba(8,138,199,0.25)"/>
-                    <circle cx="12" cy="12" r="2.5" fill="rgba(8,138,199,0.40)"/>
-                    <line x1="12" y1="7"  x2="12" y2="9.5"/>
-                    <line x1="17.3" y1="10.3" x2="14.2" y2="10.8"/>
-                    <line x1="17.3" y1="13.7" x2="14.2" y2="13.2"/>
-                    <line x1="12"   y1="17" x2="12"   y2="14.5"/>
-                    <line x1="6.7"  y1="13.7" x2="9.8" y2="13.2"/>
-                    <line x1="6.7"  y1="10.3" x2="9.8" y2="10.8"/>
-                </svg>
+            <!-- Icon + spinning ring wrapper -->
+            <div class="preloader__icon-wrap">
+                <div class="preloader__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="none"
+                         viewBox="0 0 24 24" stroke="var(--bs-primary)" stroke-width="1.4"
+                         stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="5"  r="2" fill="rgba(8,138,199,0.25)"/>
+                        <circle cx="19" cy="9"  r="2" fill="rgba(8,138,199,0.25)"/>
+                        <circle cx="19" cy="15" r="2" fill="rgba(8,138,199,0.25)"/>
+                        <circle cx="12" cy="19" r="2" fill="rgba(8,138,199,0.25)"/>
+                        <circle cx="5"  cy="15" r="2" fill="rgba(8,138,199,0.25)"/>
+                        <circle cx="5"  cy="9"  r="2" fill="rgba(8,138,199,0.25)"/>
+                        <circle cx="12" cy="12" r="2.5" fill="rgba(8,138,199,0.40)"/>
+                        <line x1="12" y1="7"  x2="12" y2="9.5"/>
+                        <line x1="17.3" y1="10.3" x2="14.2" y2="10.8"/>
+                        <line x1="17.3" y1="13.7" x2="14.2" y2="13.2"/>
+                        <line x1="12"   y1="17" x2="12"   y2="14.5"/>
+                        <line x1="6.7"  y1="13.7" x2="9.8" y2="13.2"/>
+                        <line x1="6.7"  y1="10.3" x2="9.8" y2="10.8"/>
+                    </svg>
+                </div>
+                <!-- Spinning ring -->
+                <div class="preloader__ring"></div>
             </div>
-
-            <!-- Spinning ring -->
-            <div class="preloader__ring"></div>
 
             <!-- Progress bar -->
             <div class="preloader__bar-wrap">

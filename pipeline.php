@@ -21,12 +21,6 @@ include 'components/header.php';
                 <!-- Left: Title + description -->
                 <div class="col-lg-7 order-2 order-lg-1">
 
-                    <nav class="pl-breadcrumb"
-                         data-aos="fade-up" data-aos-duration="600" aria-label="breadcrumb">
-                        <a href="index.php">Home</a>
-                        <span>›</span>
-                        <span>Development Pipeline</span>
-                    </nav>
 
                     <h1 class="pl-hero__title"
                         data-aos="fade-up" data-aos-duration="800" data-aos-delay="80">
@@ -61,7 +55,7 @@ include 'components/header.php';
                 <!-- Right: Status badges -->
                 <div class="col-lg-5 order-1 order-lg-2 align-self-center"
                      data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
-                    <div class="pl-status-badges">
+                    <div class="pl-status-badges pt-lg-5">
 
                         <div class="pl-status-badge pl-status-badge--purple">
                             <div class="pl-status-badge__icon">

@@ -26,14 +26,6 @@ include 'components/header.php';
                 <!-- Left: Text -->
                 <div class="col-lg-6 order-2 order-lg-1">
 
-                    <nav class="bak-hero__breadcrumb"
-                         data-aos="fade-up" data-aos-duration="600" aria-label="breadcrumb">
-                        <a href="index.php">Home</a>
-                        <span>›</span>
-                        <a href="products.php">Products</a>
-                        <span>›</span>
-                        <span>Bakuchiol</span>
-                    </nav>
 
                     <div class="bak-hero__eyebrow"
                          data-aos="fade-up" data-aos-duration="700" data-aos-delay="80">
@@ -370,10 +362,7 @@ include 'components/header.php';
                         <line x1="5" y1="12" x2="19" y2="12"/>
                         <polyline points="12 5 19 12 12 19"/>
                     </svg>
-                </a>
-                <a href="products.php" class="btn-cta-outline-white">
-                    View All Products
-                </a>
+                </a>              
             </div>
 
         </div>

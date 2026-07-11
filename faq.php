@@ -14,9 +14,7 @@ include 'components/header.php';
     <section class="fq-hero">
         <div class="fq-hero__bg" aria-hidden="true"></div>
         <div class="container-90">
-            <nav class="fq-breadcrumb" data-aos="fade-up" data-aos-duration="600" aria-label="breadcrumb">
-                <a href="index.php">Home</a><span>›</span><span>FAQs</span>
-            </nav>
+
             <h1 class="fq-hero__title" data-aos="fade-up" data-aos-duration="800" data-aos-delay="80">
                 Frequently Asked <span>Questions</span>
             </h1>
@@ -411,7 +409,7 @@ include 'components/header.php';
                         Contact Us
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                     </a>
-                    <a href="products.php" class="fq-cta-btn fq-cta-btn--outline">View Products</a>
+                    <!-- <a href="products.php" class="fq-cta-btn fq-cta-btn--outline">View Products</a> -->
                 </div>
             </div>
         </div>

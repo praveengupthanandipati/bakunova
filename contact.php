@@ -14,11 +14,6 @@ include 'components/header.php';
     <section class="ct-hero">
         <div class="ct-hero__bg" aria-hidden="true"></div>
         <div class="container-90">
-            <nav class="ct-breadcrumb" data-aos="fade-up" data-aos-duration="600" aria-label="breadcrumb">
-                <a href="index.php">Home</a>
-                <span>›</span>
-                <span>Contact Us</span>
-            </nav>
             <h1 class="ct-hero__title" data-aos="fade-up" data-aos-duration="800" data-aos-delay="80">
                 Get in <span>Touch</span>
             </h1>
@@ -157,6 +152,31 @@ include 'components/header.php';
                             <p class="ct-form-card__sub">Fill in the form below and our team will get back to you within 24 hours.</p>
                         </div>
 
+                        <!-- ── Success Panel (shown after send) ── -->
+                        <div class="ct-success-panel" id="ctSuccessPanel">
+                            <div class="ct-success-panel__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"
+                                     stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <h3 class="ct-success-panel__title">Message Sent!</h3>
+                            <p class="ct-success-panel__msg">
+                                Thank you, <strong id="ctSuccessName"></strong>! Your message has been sent successfully.
+                                Our team will get back to you within 24 hours.
+                            </p>
+                            <button type="button" class="ct-done-btn" id="ctDoneBtn">
+                                Done
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"
+                                     stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                            </button>
+                        </div>
+
                         <form id="contactForm" class="ct-form" novalidate>
 
                             <div class="row g-3">
@@ -270,14 +290,16 @@ include 'components/header.php';
 
                             </div><!-- /row -->
 
-                            <!-- Success / Error alerts -->
-                            <div class="ct-alert ct-alert--success" id="ctSuccess" role="alert" aria-live="polite">
+                            <!-- Server error alert -->
+                            <div class="ct-alert ct-alert--error" id="ctServerError" role="alert" aria-live="polite">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
                                      viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.2"
                                      stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <line x1="12" y1="8" x2="12" y2="12"/>
+                                    <line x1="12" y1="16" x2="12.01" y2="16"/>
                                 </svg>
-                                <span>Thank you! Your message has been sent. We'll be in touch within 24 hours.</span>
+                                <span id="ctServerErrorMsg">Something went wrong. Please try again.</span>
                             </div>
 
                             <div class="ct-form__footer">
@@ -316,15 +338,19 @@ include 'components/header.php';
 (function () {
     'use strict';
 
-    const form    = document.getElementById('contactForm');
-    const nameEl  = document.getElementById('ctName');
-    const phoneEl = document.getElementById('ctPhone');
-    const emailEl = document.getElementById('ctEmail');
-    const subjEl  = document.getElementById('ctSubject');
-    const msgEl   = document.getElementById('ctMessage');
-    const charCnt = document.getElementById('ctCharCount');
-    const success = document.getElementById('ctSuccess');
-    const submitBtn = document.getElementById('ctSubmitBtn');
+    const form          = document.getElementById('contactForm');
+    const nameEl        = document.getElementById('ctName');
+    const phoneEl       = document.getElementById('ctPhone');
+    const emailEl       = document.getElementById('ctEmail');
+    const subjEl        = document.getElementById('ctSubject');
+    const msgEl         = document.getElementById('ctMessage');
+    const charCnt       = document.getElementById('ctCharCount');
+    const submitBtn     = document.getElementById('ctSubmitBtn');
+    const successPanel  = document.getElementById('ctSuccessPanel');
+    const successName   = document.getElementById('ctSuccessName');
+    const doneBtn       = document.getElementById('ctDoneBtn');
+    const serverError   = document.getElementById('ctServerError');
+    const serverErrMsg  = document.getElementById('ctServerErrorMsg');
 
     /* ── Live character count ── */
     msgEl.addEventListener('input', function () {
@@ -334,42 +360,72 @@ include 'components/header.php';
     });
 
     /* ── Real-time inline validation on blur ── */
-    nameEl.addEventListener('blur',  () => validateField(nameEl,  'ctNameErr',    /^.{2,}$/, 'Please enter your full name (min. 2 characters).'));
-    phoneEl.addEventListener('blur', () => validateField(phoneEl, 'ctPhoneErr',   /^\+?[\d\s\-().]{7,20}$/, 'Please enter a valid phone number.'));
-    emailEl.addEventListener('blur', () => validateField(emailEl, 'ctEmailErr',   /^[^\s@]+@[^\s@]+\.[^\s@]+$/, 'Please enter a valid email address.'));
+    nameEl.addEventListener('blur',  () => validateField(nameEl,  'ctNameErr',  /^.{2,}$/,                     'Please enter your full name (min. 2 characters).'));
+    phoneEl.addEventListener('blur', () => validateField(phoneEl, 'ctPhoneErr', /^\+?[\d\s\-().]{7,20}$/,     'Please enter a valid phone number.'));
+    emailEl.addEventListener('blur', () => validateField(emailEl, 'ctEmailErr', /^[^\s@]+@[^\s@]+\.[^\s@]+$/, 'Please enter a valid email address.'));
     subjEl.addEventListener('change', () => {
         const err = document.getElementById('ctSubjectErr');
         if (subjEl.value) { clearError(subjEl, err); } else { showError(subjEl, err, 'Please select a subject.'); }
     });
     msgEl.addEventListener('blur', () => validateField(msgEl, 'ctMessageErr', /^[\s\S]{20,}$/, 'Please enter your message (min. 20 characters).'));
 
-    /* ── Submit ── */
+    /* ── Submit → fetch ── */
     form.addEventListener('submit', function (e) {
         e.preventDefault();
+        serverError.classList.remove('ct-alert--show');
 
         const valid = [
-            validateField(nameEl,  'ctNameErr',    /^.{2,}$/,                     'Please enter your full name (min. 2 characters).'),
-            validateField(phoneEl, 'ctPhoneErr',   /^\+?[\d\s\-().]{7,20}$/,     'Please enter a valid phone number.'),
-            validateField(emailEl, 'ctEmailErr',   /^[^\s@]+@[^\s@]+\.[^\s@]+$/, 'Please enter a valid email address.'),
+            validateField(nameEl,  'ctNameErr',  /^.{2,}$/,                     'Please enter your full name (min. 2 characters).'),
+            validateField(phoneEl, 'ctPhoneErr', /^\+?[\d\s\-().]{7,20}$/,     'Please enter a valid phone number.'),
+            validateField(emailEl, 'ctEmailErr', /^[^\s@]+@[^\s@]+\.[^\s@]+$/, 'Please enter a valid email address.'),
             validateSubject(),
-            validateField(msgEl,   'ctMessageErr', /^[\s\S]{20,}$/,               'Please enter your message (min. 20 characters).')
+            validateField(msgEl,   'ctMessageErr', /^[\s\S]{20,}$/,             'Please enter your message (min. 20 characters).')
         ].every(Boolean);
 
         if (!valid) return;
 
-        /* Simulate send */
         submitBtn.classList.add('ct-submit-btn--loading');
         submitBtn.disabled = true;
 
-        setTimeout(function () {
-            submitBtn.classList.remove('ct-submit-btn--loading');
-            success.classList.add('ct-alert--show');
-            form.reset();
-            charCnt.textContent = '0 / 20 min';
-            charCnt.classList.remove('ct-char-count--ok');
-            submitBtn.disabled = false;
-            success.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }, 1200);
+        const formData = new FormData(form);
+
+        fetch('send-contact.php', { method: 'POST', body: formData })
+            .then(function (res) { return res.json(); })
+            .then(function (data) {
+                submitBtn.classList.remove('ct-submit-btn--loading');
+                submitBtn.disabled = false;
+
+                if (data.success) {
+                    successName.textContent = nameEl.value.trim().split(' ')[0];
+                    form.reset();
+                    charCnt.textContent = '0 / 20 min';
+                    charCnt.classList.remove('ct-char-count--ok');
+                    /* hide form, show success panel */
+                    form.style.display = 'none';
+                    successPanel.classList.add('ct-success-panel--show');
+                    successPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                } else {
+                    serverErrMsg.textContent = data.error || 'Something went wrong. Please try again.';
+                    serverError.classList.add('ct-alert--show');
+                    serverError.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            })
+            .catch(function () {
+                submitBtn.classList.remove('ct-submit-btn--loading');
+                submitBtn.disabled = false;
+                serverErrMsg.textContent = 'Network error. Please check your connection and try again.';
+                serverError.classList.add('ct-alert--show');
+            });
+    });
+
+    /* ── Done button → back to form ── */
+    doneBtn.addEventListener('click', function () {
+        successPanel.classList.remove('ct-success-panel--show');
+        form.style.display = '';
+        /* clear any previous valid states */
+        form.querySelectorAll('.ct-input--valid').forEach(function (el) {
+            el.classList.remove('ct-input--valid');
+        });
     });
 
     function validateField(el, errId, regex, msg) {

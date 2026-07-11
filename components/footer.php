@@ -126,7 +126,7 @@
                                     <polyline points="22,6 12,13 2,6"/>
                                 </svg>
                             </div>
-                            <a href="mailto:bpandi@drugdiscoverylabs.com" class="footer-link">bpandi@drugdiscoverylabs.com</a>
+                            <a href="mailto:info@bakunova.com" class="footer-link">info@bakunova.com</a>
                         </div>
                         <div class="footer-contact-item">
                             <div class="footer-contact-icon">
