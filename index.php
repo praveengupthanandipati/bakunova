@@ -676,7 +676,7 @@ include 'components/header.php';
                                 <img src="img/ingredient01.png" alt="Bakuchiol">
                             </div>
                             <div class="ing-card-content">
-                                <h3 class="ing-card-title">Bakuchiol</h3>
+                                <h3 class="ing-card-title"><a href="bakuchiol.php">Bakuchiol</a></h3>
                                 <div class="ing-card-line">
                                     <span class="ing-line-bar"></span>
                                     <span class="ing-line-dot"></span>
@@ -702,7 +702,7 @@ include 'components/header.php';
                                 <img src="img/ingredient02.png" alt="Hydroxypinacolone Retinoate">
                             </div>
                             <div class="ing-card-content">
-                                <h3 class="ing-card-title">Hydroxypinacolone Retinoate</h3>
+                                <h3 class="ing-card-title"><a href="hpr.php">Hydroxypinacolone Retinoate</a></h3>
                                 <div class="ing-card-line">
                                     <span class="ing-line-bar"></span>
                                     <span class="ing-line-dot"></span>
@@ -731,7 +731,7 @@ include 'components/header.php';
                                 <img src="img/ingredient03.png" alt="Rosmarinic Acid">
                             </div>
                             <div class="ing-card-content">
-                                <h3 class="ing-card-title">Rosmarinic Acid</h3>
+                                <h3 class="ing-card-title"><a href="rosmarinic-acid.php">Rosmarinic Acid</a></h3>
                                 <div class="ing-card-line">
                                     <span class="ing-line-bar"></span>
                                     <span class="ing-line-dot"></span>
@@ -837,10 +837,10 @@ include 'components/header.php';
                                         <a href="products.php#native-ingredients" class="ps-item__title">Premium native ingredients</a>
                                     </div>
                                     <ul class="ps-item__list">
-                                        <li><a href="products.php#bakuchiol">Bakuchiol</a></li>
-                                        <li><a href="products.php#rosmarinic-acid">Rosmarinic Acid</a></li>
-                                        <li><a href="products.php#hpr">Hydroxypinacolone Retinoate (HPR)</a></li>
-                                        <li><a href="products.php#salicylic-acid">Natural Salicylic Acid</a></li>
+                                        <li><a href="bakuchiol.php">Bakuchiol</a></li>
+                                        <li><a href="rosmarinic-acid.php">Rosmarinic Acid</a></li>
+                                        <li><a href="hpr.php">Hydroxypinacolone Retinoate (HPR)</a></li>
+                                        <li><a href="natural-solicylic-acid.php">Natural Salicylic Acid</a></li>
                                     </ul>
                                 </div>
 
@@ -956,7 +956,7 @@ include 'components/header.php';
                                             <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
                                         </svg>
                                     </div>
-                                    <span class="ps-flow-step__label">Native<br>Ingredients</span>
+                                    <span class="ps-flow-step__label">Native Ingredients</span>
                                 </div>
 
                                 <div class="ps-flow-arrow">&#8595;</div>
@@ -972,7 +972,7 @@ include 'components/header.php';
                                             <circle cx="12" cy="12" r="2"/>
                                         </svg>
                                     </div>
-                                    <span class="ps-flow-step__label">Advanced Delivery<br>Platforms</span>
+                                    <span class="ps-flow-step__label">Advanced Delivery Platforms</span>
                                 </div>
 
                                 <div class="ps-flow-arrow">&#8595;</div>
@@ -986,7 +986,7 @@ include 'components/header.php';
                                             <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
                                         </svg>
                                     </div>
-                                    <span class="ps-flow-step__label">Value-added<br>Pre-formulations</span>
+                                    <span class="ps-flow-step__label">Value-added Pre-formulations</span>
                                 </div>
 
                                 <div class="ps-flow-arrow">&#8595;</div>
@@ -1000,7 +1000,7 @@ include 'components/header.php';
                                             <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
                                         </svg>
                                     </div>
-                                    <span class="ps-flow-step__label">Better Finished<br>Product Performance</span>
+                                    <span class="ps-flow-step__label">Better Finished Product Performance</span>
                                 </div>
 
                             </div><!-- /flow -->
@@ -1076,7 +1076,7 @@ include 'components/header.php';
                                         <li><a href="services.php#sln">Solid lipid nanoparticles</a></li>
                                         <li><a href="services.php#microemulsions">Microemulsions</a></li>
                                         <li><a href="services.php#cyclodextrin">β-Cyclodextrin complexation</a></li>
-                                        <li style="grid-column:1/-1"><a href="services.php#encapsulation">Additional encapsulation and controlled-release systems</a></li>
+                                        <li style="grid-column:1/-1">For additional information, <a href="mailto:info@bakunova.com">contact us</a></li>
                                     </ul>
                                 </div>
 
