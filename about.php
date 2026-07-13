@@ -105,7 +105,7 @@ include 'components/header.php';
                     <!-- Right: Visual -->
                     <div class="col-lg-6" data-aos="fade-up" data-aos-duration="900" data-aos-delay="150">
                         <div class="abt-overview__visual">
-                            <img src="img/hero01.jpg" alt="Bakunova Research" class="abt-overview__img-main">
+                            <img src="img/about01.jpg" alt="Bakunova Research" class="abt-overview__img-main">
                             <div class="abt-overview__badge">
                                 <span class="abt-overview__badge-num">DDL</span>
                                 <p class="abt-overview__badge-text">Drug Discovery Labs, USA</p>
