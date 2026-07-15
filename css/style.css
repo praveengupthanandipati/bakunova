@@ -7602,7 +7602,7 @@ header {
 }
 .abt-overview__img-main {
     width: 100%;
-    height: 420px;
+    height: 100%;
     object-fit: cover;
     border-radius: 20px;
     box-shadow: 0 20px 60px rgba(8,138,199,.18);
