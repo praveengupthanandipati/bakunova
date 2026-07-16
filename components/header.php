@@ -92,7 +92,12 @@
 
                         <li class="nav-item">
                             <a href="about.php" class="nav-link nav-link-custom <?= (isset($current_page) && in_array($current_page, ['company','about'])) ? 'active' : '' ?>">About Us</a>
-                        </li>                      
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="xnova.php" class="nav-link nav-link-custom <?= (isset($current_page) && $current_page === 'xnova') ? 'active' : '' ?>">Xnova</a>
+                        </li>
+
                         <!-- PRODUCTS MEGA MENU -->
                         <li class="nav-item dropdown mn-trigger">
                             <a class="nav-link nav-link-custom d-flex align-items-center gap-1 <?= (isset($current_page) && $current_page === 'products') ? 'active' : '' ?>" href="#" role="button">
@@ -276,6 +281,7 @@
                 <div class="mob-nav-block">
                     <a href="index.php" class="mob-nav-row">Home</a>
                     <a href="about.php" class="mob-nav-row">About Us</a>
+                    <a href="xnova.php" class="mob-nav-row">Xnova</a>
                     <a href="services.php" class="mob-nav-row">Services</a>
                 </div>
 

@@ -75,7 +75,7 @@ include 'components/header.php';
                         </div>
                         <div class="abt-overview__text mt-4"
                              data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                            <p>Bakunova is a specialty cosmetic ingredient company and a proud division of Drug Discovery Labs, USA. We are focused on developing premium active ingredients and advanced delivery technologies for next-generation skincare products.</p>
+                            <p>Bakunova is a specialty cosmetic ingredient division. We are focused on developing premium active ingredients and advanced delivery technologies for next-generation skincare products.</p>
                             <p>By combining ingredient expertise, formulation science, and delivery system innovation, we create formulation-ready solutions designed to enhance stability, performance, and product differentiation.</p>
                             <p>We partner with cosmetic brands, manufacturers, and formulators worldwide to accelerate innovation and transform promising concepts into market-ready, high-performance products.</p>
                         </div>
@@ -87,7 +87,7 @@ include 'components/header.php';
                                 <span class="abt-stat-label">Years of R&amp;D</span>
                             </div>
                             <div class="abt-stat">
-                                <span class="abt-stat-num">50+</span>
+                                <span class="abt-stat-num">15+</span>
                                 <span class="abt-stat-label">Active Ingredients</span>
                             </div>
                             <div class="abt-stat">
@@ -106,10 +106,6 @@ include 'components/header.php';
                     <div class="col-lg-6" data-aos="fade-up" data-aos-duration="900" data-aos-delay="150">
                         <div class="abt-overview__visual">
                             <img src="img/about01.jpg" alt="Bakunova Research" class="abt-overview__img-main">
-                            <div class="abt-overview__badge">
-                                <span class="abt-overview__badge-num">DDL</span>
-                                <p class="abt-overview__badge-text">Drug Discovery Labs, USA</p>
-                            </div>
                         </div>
                     </div>
 
@@ -285,7 +281,7 @@ include 'components/header.php';
         <!-- =============================================
              CORE VALUES
              ============================================= -->
-        <section class="abt-values">
+        <section class="abt-values d-none">
             <div class="container-90">
 
                 <div class="text-center mb-5"
@@ -365,7 +361,7 @@ include 'components/header.php';
         <!-- =============================================
              OUR COMMITMENT
              ============================================= -->
-        <section class="abt-commitment">
+        <section class="abt-commitment d-none">
             <div class="container-90">
 
                 <div class="text-center mb-5"
@@ -436,7 +432,7 @@ include 'components/header.php';
         <!-- =============================================
              LEADERSHIP
              ============================================= -->
-        <section class="ld-section" id="leadership">
+        <section class="ld-section d-none" id="leadership">
 
             <!-- Background: molecule nodes -->
             <svg class="ld-section__bg" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -577,7 +573,7 @@ include 'components/header.php';
         <!-- =============================================
              EXPERTISE HIGHLIGHTS
              ============================================= -->
-        <section class="ld-expertise">
+        <section class="ld-expertise d-none">
             <div class="container-90">
 
                 <div data-aos="fade-up" data-aos-duration="700">
