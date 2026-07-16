@@ -3,6 +3,7 @@ $current_page     = 'company';
 $page_title       = 'About Us';
 $meta_description = 'Learn about Bakunova — a cosmetic division of Drug Discovery Labs, USA. We develop premium cosmetic actives and advanced delivery technologies for next-generation skincare brands.';
 $meta_keywords    = 'about Bakunova, cosmetic ingredient company, Drug Discovery Labs, skincare innovation, delivery technologies, cosmetic actives, formulation science, company mission, skincare R&D';
+$og_image         = 'img/about01.jpg';
 include 'components/header.php';
 ?>
 

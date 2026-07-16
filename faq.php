@@ -3,6 +3,7 @@ $current_page     = 'faq';
 $page_title       = 'FAQs';
 $meta_description = 'Frequently asked questions about Bakunova — Bakuchiol, Rosmarinic Acid, HPR, delivery technologies, development pipeline, samples, and partnerships.';
 $meta_keywords    = 'Bakunova FAQ, Bakuchiol questions, Rosmarinic Acid, HPR, liposomal, microemulsion, SLN, CAGE, cosmetic actives, skincare ingredients';
+$og_image         = 'img/bakunova-logo.png';
 include 'components/header.php';
 ?>
 

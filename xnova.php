@@ -3,6 +3,7 @@ $current_page     = 'xnova';
 $page_title       = 'Xnova';
 $meta_description = 'Xnova by Bakunova — next-generation cosmetic ingredient solutions powered by advanced delivery science.';
 $meta_keywords    = 'Xnova, Bakunova, cosmetic ingredients, delivery technology, skincare innovation';
+$og_image         = 'img/bakunova-logo.png';
 include 'components/header.php';
 ?>
 

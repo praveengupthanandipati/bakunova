@@ -3,6 +3,7 @@ $current_page     = 'services';
 $page_title       = 'Services';
 $meta_description = 'Bakunova Advanced Delivery Services — technology selection & formulation strategy, ingredient-to-pre-formulation development, customized delivery system design, and value addition in finished formulations.';
 $meta_keywords    = 'advanced delivery services, formulation strategy, delivery system design, pre-formulation development, cosmetic actives, liposomes, SLN, microemulsions, Bakunova';
+$og_image         = 'img/bakunova-logo.png';
 include 'components/header.php';
 ?>
 

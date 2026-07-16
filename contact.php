@@ -3,6 +3,7 @@ $current_page     = 'contact';
 $page_title       = 'Contact Us';
 $meta_description = 'Get in touch with Bakunova — premium cosmetic actives and delivery technologies. Contact our India and USA teams for product inquiries, samples, and partnership opportunities.';
 $meta_keywords    = 'contact Bakunova, cosmetic actives inquiry, sample request, Drug Discovery Labs, Hyderabad, Cary NC, skincare partnership';
+$og_image         = 'img/bakunova-logo.png';
 include 'components/header.php';
 ?>
 

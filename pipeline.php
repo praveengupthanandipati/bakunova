@@ -3,6 +3,7 @@ $current_page     = 'pipeline';
 $page_title       = 'Development Pipeline';
 $meta_description = 'Bakunova Development Pipeline — 5 innovative dermatology programs (BN-001 to BN-005) covering Vitiligo, Acne, Psoriasis, Skin Whitening, and Anti-Aging. All programs have successfully completed preclinical development and are available for licensing.';
 $meta_keywords    = 'Bakunova pipeline, development pipeline, dermatology pipeline, out-licensing, co-development, Vitiligo, Acne, Psoriasis, Skin Whitening, Anti-Aging, BN-001, BN-002, BN-003, BN-004, BN-005';
+$og_image         = 'img/bakunova-logo.png';
 include 'components/header.php';
 ?>
 

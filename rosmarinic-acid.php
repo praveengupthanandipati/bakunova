@@ -3,6 +3,7 @@ $current_page     = 'products';
 $page_title       = 'Rosmarinic Acid';
 $meta_description = 'Rosmarinic Acid — a premium polyphenol active ingredient from Bakunova. Available in liposomal, microemulsion, beta-CD complex, SLN, and ionic liquid delivery formats.';
 $meta_keywords    = 'Rosmarinic Acid, polyphenol antioxidant, rosmarinic acid cosmetic ingredient, liposomal rosmarinic acid, microemulsion, SLN, CAGE technology, Bakunova, CAS 20283-92-5';
+$og_image         = 'img/RosmarinicAcid/img01.jpg';
 include 'components/header.php';
 ?>
 

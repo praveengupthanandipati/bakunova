@@ -3,6 +3,7 @@ $current_page     = 'products';
 $page_title       = 'Natural Salicylic Acid';
 $meta_description = 'Natural Salicylic Acid — a plant-derived BHA from Bakunova. Available in liposomal, microemulsion, beta-CD complex, SLN, and ionic liquid delivery formats for superior skin clarity.';
 $meta_keywords    = 'Natural Salicylic Acid, salicylic acid BHA, willow bark extract, comedolytic ingredient, acne cosmetic ingredient, liposomal salicylic acid, salicylic acid microemulsion, salicylic acid SLN, Bakunova, CAS 69-72-7';
+$og_image         = 'img/RosmarinicAcid/img01.jpg';
 include 'components/header.php';
 ?>
 

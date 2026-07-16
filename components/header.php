@@ -3,10 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= isset($page_title) ? htmlspecialchars($page_title) . ' — Bakunova' : 'Bakunova | Premium Cosmetic Actives & Delivery Technologies' ?></title>
-    <meta name="description" content="<?= isset($meta_description) ? htmlspecialchars($meta_description) : 'Bakunova develops premium cosmetic actives and advanced delivery technologies for next-generation skincare brands.' ?>">
-    <meta name="keywords" content="<?= isset($meta_keywords) ? htmlspecialchars($meta_keywords) : 'Bakunova, cosmetic actives, delivery technologies, skincare ingredients, Drug Discovery Labs' ?>">
-    <link rel="icon" href="img/fav.png" type="image/png">
+
+    <?php
+    $site_name   = 'Bakunova';
+    $base_url    = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http') . '://' . ($_SERVER['HTTP_HOST'] ?? 'bakunova.com');
+    $page_url    = $base_url . '/' . ltrim(str_replace('\\', '/', substr($_SERVER['PHP_SELF'] ?? '/index.php', strlen(dirname(dirname($_SERVER['PHP_SELF'] ?? ''))))), '/');
+    $title_full  = isset($page_title) ? htmlspecialchars($page_title) . ' — ' . $site_name : $site_name . ' | Premium Cosmetic Actives & Delivery Technologies';
+    $desc        = isset($meta_description) ? htmlspecialchars($meta_description) : 'Bakunova develops premium cosmetic actives and advanced delivery technologies for next-generation skincare brands.';
+    $keywords    = isset($meta_keywords)    ? htmlspecialchars($meta_keywords)    : 'Bakunova, cosmetic actives, delivery technologies, skincare ingredients';
+    $og_img      = isset($og_image)         ? $base_url . '/' . ltrim($og_image, '/') : $base_url . '/img/og-default.jpg';
+    ?>
+
+    <!-- ── Primary Meta ── -->
+    <title><?= $title_full ?></title>
+    <meta name="description"  content="<?= $desc ?>">
+    <meta name="keywords"     content="<?= $keywords ?>">
+    <meta name="author"       content="Bakunova">
+    <meta name="robots"       content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="language"     content="en">
+    <meta name="revisit-after" content="7 days">
+
+    <!-- ── Canonical ── -->
+    <link rel="canonical" href="<?= htmlspecialchars(isset($canonical_url) ? $canonical_url : $page_url) ?>">
+
+    <!-- ── Open Graph ── -->
+    <meta property="og:type"        content="website">
+    <meta property="og:site_name"   content="<?= $site_name ?>">
+    <meta property="og:title"       content="<?= $title_full ?>">
+    <meta property="og:description" content="<?= $desc ?>">
+    <meta property="og:url"         content="<?= htmlspecialchars($page_url) ?>">
+    <meta property="og:image"       content="<?= htmlspecialchars($og_img) ?>">
+    <meta property="og:image:width"  content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt"   content="<?= $site_name ?> — <?= isset($page_title) ? htmlspecialchars($page_title) : 'Premium Cosmetic Actives' ?>">
+    <meta property="og:locale"      content="en_US">
+
+    <!-- ── Twitter Card ── -->
+    <meta name="twitter:card"        content="summary_large_image">
+    <meta name="twitter:site"        content="@bakunova">
+    <meta name="twitter:title"       content="<?= $title_full ?>">
+    <meta name="twitter:description" content="<?= $desc ?>">
+    <meta name="twitter:image"       content="<?= htmlspecialchars($og_img) ?>">
+
+    <!-- ── Favicons ── -->
+    <link rel="icon"             href="img/fav.png" type="image/png">
+    <link rel="shortcut icon"    href="img/fav.png" type="image/png">
+    <link rel="apple-touch-icon" href="img/fav.png">
+
+    <!-- ── Schema.org: Organization ── -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Bakunova",
+      "url": "<?= $base_url ?>",
+      "logo": "<?= $base_url ?>/img/bakunova-logo.png",
+      "description": "Bakunova develops premium cosmetic actives and advanced delivery technologies for next-generation skincare brands.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@bakunova.com",
+        "contactType": "customer service"
+      },
+      "sameAs": []
+    }
+    </script>
+
+    <!-- ── Stylesheets ── -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/swiper.min.css">

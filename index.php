@@ -3,6 +3,7 @@ $current_page   = 'home';
 $page_title     = 'Home';
 $meta_description = 'Bakunova develops premium cosmetic actives and advanced delivery technologies — giving skincare brands formulation-ready solutions that are more stable, more effective, and truly differentiated.';
 $meta_keywords  = 'Bakunova, cosmetic actives, delivery technologies, skincare ingredients, liposomes, microsponge, microemulsions, ionic liquid, solid lipid nanoparticles, bakuchiol, skin care, formulation';
+$og_image       = 'img/bakunova-logo.png';
 include 'components/header.php';
 ?>
 

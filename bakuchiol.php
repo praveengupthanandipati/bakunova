@@ -3,6 +3,7 @@ $current_page     = 'products';
 $page_title       = 'Bakuchiol';
 $meta_description = 'Bakuchiol — a premium natural retinol alternative from Bakunova. Available in liposomal, microemulsion, beta-CD complex, SLN, and ionic liquid delivery formats.';
 $meta_keywords    = 'Bakuchiol, natural retinol alternative, bakuchiol cosmetic ingredient, liposomal bakuchiol, bakuchiol microemulsion, bakuchiol SLN, CAGE technology, Bakunova, CAS 10309-37-2';
+$og_image         = 'img/Bakuchiol/img01.jpg';
 include 'components/header.php';
 ?>
 

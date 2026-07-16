@@ -3,6 +3,7 @@ $current_page     = 'products';
 $page_title       = 'Hydroxypinacolone Retinoate (HPR)';
 $meta_description = 'Hydroxypinacolone Retinoate (HPR) — a next-generation retinoid ester from Bakunova. Available in liposomal, microemulsion, beta-CD complex, SLN, and ionic liquid delivery formats.';
 $meta_keywords    = 'Hydroxypinacolone Retinoate, HPR, retinoid ester, retinol alternative, liposomal HPR, microemulsion, SLN, CAGE technology, Bakunova, CAS 893412-73-2';
+$og_image         = 'img/HPR/img01.jpg';
 include 'components/header.php';
 ?>
 
