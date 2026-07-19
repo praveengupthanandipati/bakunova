@@ -9951,6 +9951,131 @@ html, body { overflow-x: hidden; }
 
 .pl-licensing__dot { opacity: 0.45; }
 
+/* Slightly larger banner when placed at top of page — offset for the fixed header */
+.pl-licensing--top { padding: calc(97px + 22px) 0 30px; }
+.pl-licensing--top .pl-licensing__icon { width: 54px; height: 54px; }
+.pl-licensing--top .pl-licensing__title { font-size: 1.05rem; }
+.pl-licensing--top .pl-licensing__items { font-size: 0.95rem; }
+
+/* --- Brochure Download CTA --- */
+.pl-brochure-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 14px;
+    padding: 15px 22px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #db2777, #f472b6);
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(219,39,119,0.28);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.pl-brochure-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px rgba(219,39,119,0.36);
+    color: #fff;
+}
+.pl-brochure-cta svg { flex-shrink: 0; }
+
+/* --- Xnova Platform Banner --- */
+.pl-xnova-banner { padding: 0 0 56px; background: #fff; }
+.pl-xnova-banner__img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(15,23,42,0.10);
+}
+
+/* --- Brochure Modal --- */
+.pl-brochure-modal .modal-dialog { max-width: 1100px; }
+.pl-brochure-modal .modal-content { border-radius: 20px; border: none; overflow: hidden; }
+.pl-brochure-modal .btn-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 5;
+    width: 34px;
+    height: 34px;
+    padding: 0;
+    background-color: #fff;
+    background-size: 12px;
+    border-radius: 50%;
+    opacity: 1;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.pl-brochure-info {
+    padding: 44px 40px;
+    background: linear-gradient(160deg, #faf5ff 0%, #fff 60%);
+}
+.pl-brochure-info__eyebrow {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #7c3aed;
+    margin-bottom: 8px;
+}
+.pl-brochure-info h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.25;
+    margin-bottom: 18px;
+}
+.pl-brochure-info p {
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: #475569;
+    margin-bottom: 14px;
+}
+.pl-brochure-info ul { margin: 0 0 16px; padding-left: 20px; }
+.pl-brochure-info ul li {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #475569;
+    margin-bottom: 8px;
+}
+.pl-brochure-info p strong { color: #0f172a; }
+.pl-brochure-note {
+    font-weight: 700;
+    color: #0f172a !important;
+    margin-bottom: 0 !important;
+}
+
+.pl-brochure-form-col { background: #f8fafc; padding: 40px 32px; }
+.pl-brochure-form-col .ct-form-card {
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+.pl-brochure-form-lead {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 16px;
+}
+.pl-brochure-submit { width: 100%; justify-content: center; }
+.pl-brochure-note-secure { justify-content: center; margin-top: 16px; }
+
+@media (max-width: 991.98px) {
+    .pl-brochure-info { padding: 36px 28px; }
+    .pl-brochure-form-col { padding: 32px 24px; }
+}
+@media (max-width: 575.98px) {
+    .pl-brochure-info { padding: 28px 20px; }
+    .pl-brochure-form-col { padding: 28px 20px; }
+}
+
 /* --- Responsive --- */
 @media (max-width: 1200px) {
     .pl-program__img-wrap { width: 150px; height: 150px; }
