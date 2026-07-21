@@ -25,12 +25,13 @@ include 'components/header.php';
                 </div>
                 <h1 class="sv-hero__title"
                     data-aos="fade-up" data-aos-duration="800" data-aos-delay="140">
-                    Advanced Delivery <span>Services</span>
+                    Technology &amp; Innovation Partnership <span>Services</span>
                 </h1>
                 <p class="sv-hero__subtitle"
                    data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
-                    End-to-end technical services that transform premium cosmetic actives into
-                    high-performance, formulation-ready delivery systems.
+                    We collaborate with skincare brands from concept to commercialization by providing
+                    ingredient innovation, delivery technologies, formulation development, and technical
+                    support for differentiated cosmetic products.
                 </p>
                 <div class="sv-hero__badges"
                      data-aos="fade-up" data-aos-duration="600" data-aos-delay="280">
